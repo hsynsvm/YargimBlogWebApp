@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramse\\Desktop\\YargimBlogWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\desktop\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Giris.aspx",
+              "DocumentMoniker": "C:\\Users\\ramse\\Desktop\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "ToolTip": "C:\\Users\\ramse\\Desktop\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-18T19:05:14.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
