@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YoneticiMaster.master.cs" Inherits="YargimBlogWebApp.YoneticiPanel.YoneticiMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Yonetici MasterPage</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/YoneticiStil.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="solMenu">
+            <div class="resimDiv">
+                <img src="adminResimler/man.png" class="users" />
+            </div>
+            <div class="items">
+                <div class="satir">
+                    <img src="adminResimler/home.png" class="icon" />
+                    Anasayfa
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/add.png" class="icon" />
+                    Kategori Ekle
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/list.png" class="icon" />
+                   Kategori Listele
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/articleadd.png" class="icon" />
+                    Makale Ekle
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/table.png" class="icon" />
+                    Makale Listele
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/team.png" class="icon" />
+                    Üyeler
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/comment.png" class="icon" />
+                     Yorumlar
+                </div>
+                <div class="satir">
+                    <img src="adminResimler/admin.png" class="icon" />
+                     Yönetici İşlemleri
+                </div>
+                <div style="clear: both"></div>
+    </div>
+</div>
+            <div class="ustcubuk">
+                <div class="anaBaslik">
+                <h2>Yargım Blog Yönetim Paneli </h2>
+                </div>
+                <div class="kullaniciAlani">
+                <asp:Label ID="lbl_kullanici" runat="server" CssClass="kullanicieleman">Kullanıcı Adı(Yetki)</asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış </asp:LinkButton>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            
+        </div>
+            
+        <div class="anaIcerik">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

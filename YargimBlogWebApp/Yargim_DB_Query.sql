@@ -27,8 +27,8 @@ CREATE TABLE Yoneticiler
 	CONSTRAINT fk_yoneticiYoneticiTur FOREIGN KEY(YoneticiTurID) REFERENCES YoneticiTurleri(ID)
 )
 GO
-INSERT INTO Yoneticiler(YoneticiTurID, Isim, Soyisim,KullaniciAdi,Mail,Sifre,Durum)
-VALUES(1, 'Hüseyin', 'Sevim','Admin','hsynsvm@hotmail.com','12345',1)
+INSERT INTO Yoneticiler(YoneticiTurID, Isim, Soyisim,KullaniciAdi,Mail,Sifre,Durum,Silinmis)
+VALUES(1, 'Hüseyin', 'Sevim','Admin','hsynsvm@hotmail.com','12345',1,0)
 GO
 CREATE TABLE Kategoriler
 (

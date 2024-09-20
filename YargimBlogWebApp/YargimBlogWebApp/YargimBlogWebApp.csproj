@@ -68,12 +68,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="YoneticiPanel\adminResimler\add.png" />
+    <Content Include="YoneticiPanel\adminResimler\admin.png" />
     <Content Include="YoneticiPanel\adminResimler\arrow.png" />
+    <Content Include="YoneticiPanel\adminResimler\articleadd.png" />
     <Content Include="YoneticiPanel\adminResimler\background.png" />
+    <Content Include="YoneticiPanel\adminResimler\comment.png" />
     <Content Include="YoneticiPanel\adminResimler\delete.png" />
     <Content Include="YoneticiPanel\adminResimler\edit.png" />
     <Content Include="YoneticiPanel\adminResimler\energy.png" />
+    <Content Include="YoneticiPanel\adminResimler\home.png" />
+    <Content Include="YoneticiPanel\adminResimler\list.png" />
+    <Content Include="YoneticiPanel\adminResimler\man.png" />
+    <Content Include="YoneticiPanel\adminResimler\pdikey.jpg" />
+    <Content Include="YoneticiPanel\adminResimler\pyatay.jpg" />
+    <Content Include="YoneticiPanel\adminResimler\table.png" />
+    <Content Include="YoneticiPanel\adminResimler\team.png" />
     <Content Include="YoneticiPanel\Css\girisCss.css" />
+    <Content Include="YoneticiPanel\Css\YoneticiStil.css" />
     <Content Include="YoneticiPanel\Giris.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +97,62 @@
     <Compile Include="YoneticiPanel\Giris.aspx.designer.cs">
       <DependentUpon>Giris.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriEkle.aspx.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriEkle.aspx.designer.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListele.aspx.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListele.aspx.designer.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.designer.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleEkle.aspx.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleEkle.aspx.designer.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiDefault.aspx.cs">
+      <DependentUpon>YoneticiDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiDefault.aspx.designer.cs">
+      <DependentUpon>YoneticiDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMaster.Master.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMaster.Master.designer.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -94,6 +162,14 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="YoneticiPanel\KategoriDuzenle.aspx" />
+    <Content Include="YoneticiPanel\KategoriEkle.aspx" />
+    <Content Include="YoneticiPanel\KategoriListele.aspx" />
+    <Content Include="YoneticiPanel\MakaleDuzenle.aspx" />
+    <Content Include="YoneticiPanel\MakaleEkle.aspx" />
+    <Content Include="YoneticiPanel\MakaleListele.aspx" />
+    <Content Include="YoneticiPanel\YoneticiDefault.aspx" />
+    <Content Include="YoneticiPanel\YoneticiMaster.Master" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Css\" />

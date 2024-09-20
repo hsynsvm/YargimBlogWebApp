@@ -25,7 +25,6 @@ body {
     height: 350px
 }
 .sag {
-    background-image: url(../resimler/login_background.jpg);
     padding: 30px;
     margin:25px;
     width: 350px;
@@ -45,8 +44,9 @@ baslik {
 .metinKutu {
     padding: 10px;
     border-radius: 20px;
-    border: none;
-    background-color: #efefef;
+    border: 2px solid blue;
+    background-color:white;
+    color:black;
     width: 328px;
 }
 
@@ -57,31 +57,36 @@ baslik {
     padding: 7px 20px;
     text-decoration: none;
 }
+.uyelink:hover {
+    color:blue;
+}
 
 .girisButton {
     border-radius: 20px;
-    color: white;
+    background-color:black;
+    color:white;
+    border:1px solid blue;
     padding: 10px;
     text-decoration: none;
     width: 350px;
-    background-image: url(../resimler/login_background.jpg);
-    border: none;
     font-size: 12pt;
     cursor: pointer;
 }
 
     .girisButton:hover {
-        background-image: none;
-        background-color: #fe4385;
+        color:blue;
     }
 
 .sifre_unuttum {
-    color: dimgrey;
+    color:antiquewhite;
     text-decoration: none;
+}
+.sifre_unuttum:hover {
+    color: blue;
 }
 
 .panelBasarisiz {
-    background-color: #fe4385;
+    background-color:red;
     color: white;
     padding: 10px;
     width: 328px;
