@@ -14,8 +14,9 @@ body {
 }
 .solMenu {
     width: 200px;
-    height:700px;
+    height: 680px;
     background-image: url('../adminresimler/pdikey.jpg');
+    background-size: cover;
     float: left;
 }
 .users{

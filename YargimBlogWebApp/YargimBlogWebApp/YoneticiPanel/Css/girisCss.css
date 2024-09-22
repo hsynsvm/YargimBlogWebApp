@@ -4,14 +4,15 @@
 }
 body {
     font-family: 'Times New Roman';
-    color:white;
+    color: white;
     background-image: url('../adminresimler/background.png');
+    background-size: cover;
 }
 .tasiyici {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    width:840px;
+    width: 840px;
     box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
     -webkit-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
     -moz-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
@@ -82,7 +83,7 @@ baslik {
     text-decoration: none;
 }
 .sifre_unuttum:hover {
-    color: blue;
+    color: orangered;
 }
 
 .panelBasarisiz {

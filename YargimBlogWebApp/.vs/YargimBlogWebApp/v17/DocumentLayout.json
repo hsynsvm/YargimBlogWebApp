@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\css\\giriscss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\css\\giriscss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "girisCss.css",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\girisCss.css",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Css\\girisCss.css",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\girisCss.css",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Css\\girisCss.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T12:04:58.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YoneticiStil.css",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T12:03:50.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "YoneticiDefault.aspx",
               "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
               "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
