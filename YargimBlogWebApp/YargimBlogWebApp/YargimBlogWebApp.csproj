@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resimler\analogo.png" />
+    <Content Include="Resimler\MakaleResimleri\none.png" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\adminResimler\add.png" />
     <Content Include="YoneticiPanel\adminResimler\admin.png" />
@@ -397,7 +399,9 @@
     <Content Include="YoneticiPanel\ckeditor\skins\moono-lisa\images\spinner.gif" />
     <Content Include="YoneticiPanel\ckeditor\styles.js" />
     <Content Include="YoneticiPanel\ckeditor\vendor\promise.js" />
+    <Content Include="YoneticiPanel\Css\FormSayfasi.css" />
     <Content Include="YoneticiPanel\Css\girisCss.css" />
+    <Content Include="YoneticiPanel\Css\ListeSayfasi.css" />
     <Content Include="YoneticiPanel\Css\YoneticiStil.css" />
     <Content Include="YoneticiPanel\Giris.aspx" />
   </ItemGroup>
@@ -502,7 +506,6 @@
     <Folder Include="Css\" />
     <Folder Include="Gif\" />
     <Folder Include="Reklamlar\" />
-    <Folder Include="Resimler\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">

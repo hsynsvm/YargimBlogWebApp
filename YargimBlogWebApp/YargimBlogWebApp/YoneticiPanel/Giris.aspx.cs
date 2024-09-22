@@ -47,7 +47,7 @@ namespace YargimBlogWebApp.YoneticiPanel
                     else
                     {
                         pnl_basarisiz.Visible=true;
-                        lbl_mesaj.Text = "Bir Hata Oluştu";
+                        lbl_mesaj.Text = "Şifrenizi veya Kullanıcı Adınızı yanlış girdiniz!";
                     }
                 }
                 else

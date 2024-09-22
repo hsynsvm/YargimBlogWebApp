@@ -8,63 +8,62 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="Css/YoneticiStil.css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="anasayfa">
             <div class="solMenu">
-            <div class="resimDiv">
-                <img src="adminResimler/man.png" class="users" />
+                <div class="resimDiv">
+                    <img src="adminResimler/man.png" class="users" />
+                </div>
+                <div class="items">
+                    <div class="satir">
+                        <img src="adminResimler/home.png" class="icon" />
+                        <a href="YoneticiDefault.aspx">Anasayfa</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/add.png" class="icon" />
+                        <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/list.png" class="icon" />
+                        <a href="KategoriListele.aspx">Kategori Listele</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/articleadd.png" class="icon" />
+                        <a href="MakaleEkle.aspx">Makale Ekle</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/table.png" class="icon" />
+                        <a href="MakaleListele.aspx">Makale Listele</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/team.png" class="icon" />
+                        <a href="#">Üyeler</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/comment.png" class="icon" />
+                        <a href="#">Yorumlar</a>
+                    </div>
+                    <div class="satir">
+                        <img src="adminResimler/admin.png" class="icon" />
+                        <a href="#">Yönetici İşlemleri</a>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
             </div>
-            <div class="items">
-                <div class="satir">
-                    <img src="adminResimler/home.png" class="icon" />
-                    Anasayfa
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/add.png" class="icon" />
-                    Kategori Ekle
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/list.png" class="icon" />
-                   Kategori Listele
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/articleadd.png" class="icon" />
-                    Makale Ekle
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/table.png" class="icon" />
-                    Makale Listele
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/team.png" class="icon" />
-                    Üyeler
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/comment.png" class="icon" />
-                     Yorumlar
-                </div>
-                <div class="satir">
-                    <img src="adminResimler/admin.png" class="icon" />
-                     Yönetici İşlemleri
-                </div>
-                <div style="clear: both"></div>
-    </div>
-</div>
             <div class="ustcubuk">
                 <div class="anaBaslik">
-                <h2>Yargım Blog Yönetim Paneli </h2>
+                    <h2>Yargım Blog Yönetim Paneli </h2>
                 </div>
                 <div class="kullaniciAlani">
-                <asp:Label ID="lbl_kullanici" runat="server" CssClass="kullanicieleman">Kullanıcı Adı(Yetki)</asp:Label>
-                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış </asp:LinkButton>
+                    <asp:Label ID="lbl_kullanici" runat="server" CssClass="kullanicieleman">Kullanıcı Adı(Yetki)</asp:Label>
+                    <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış </asp:LinkButton>
                 </div>
                 <div style="clear: both"></div>
             </div>
-            
         </div>
-            
         <div class="anaIcerik">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

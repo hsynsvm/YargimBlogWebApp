@@ -7,17 +7,17 @@ body {
 }
 .ustcubuk {
     background-image: url('../adminresimler/pyatay.jpg');
-    min-height: 80px;
+    min-height: 40px;
     color: white;
-    float: left;
-    width: 1318px;
+    float:left;
+    width:1318px;
 }
 .solMenu {
     width: 200px;
-    height: 680px;
+    height:680px;
     background-image: url('../adminresimler/pdikey.jpg');
     background-size: cover;
-    float: left;
+    float:left;
 }
 .users{
     width:100px;
@@ -26,9 +26,10 @@ body {
 }
 .anaBaslik {
     padding: 20px 20px;
-    width: 500px;
+    width: 450px;
     float:left;
-    margin-left:450px;
+    margin-left:400px;
+    
 }
 .kullaniciAlani {
     padding: 10px;
@@ -41,6 +42,8 @@ body {
     margin:5px;
     width:100px;
     text-decoration:none;
+    color:blue;
+    cursor:pointer;
 }
 .kullanicieleman:hover {
     text-decoration: underline;
@@ -55,6 +58,14 @@ body {
     margin-left:20px;
     padding:5px;
     color:white;
+}
+.satir a{
+    text-decoration:none;
+    color:white;
+}
+.satir a:hover{
+    color:red;
+    cursor:pointer;
 }
 .icon{
     width:20px;
