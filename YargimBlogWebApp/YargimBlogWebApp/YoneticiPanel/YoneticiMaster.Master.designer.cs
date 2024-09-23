@@ -33,7 +33,7 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lbl_kullanici control.
+        ///  lbl_kullanici control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

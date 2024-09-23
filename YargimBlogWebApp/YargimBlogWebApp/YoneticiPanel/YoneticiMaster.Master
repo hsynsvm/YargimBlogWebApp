@@ -16,6 +16,7 @@
             <div class="solMenu">
                 <div class="resimDiv">
                     <img src="adminResimler/man.png" class="users" />
+                     <asp:Label ID="lbl_kullanici" runat="server" CssClass="users">Kullanıcı Adı</asp:Label>
                 </div>
                 <div class="items">
                     <div class="satir">
@@ -58,7 +59,6 @@
                     <h2>Yargım Blog Yönetim Paneli </h2>
                 </div>
                 <div class="kullaniciAlani">
-                    <asp:Label ID="lbl_kullanici" runat="server" CssClass="kullanicieleman">Kullanıcı Adı(Yetki)</asp:Label>
                     <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış </asp:LinkButton>
                 </div>
                 <div style="clear: both"></div>

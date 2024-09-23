@@ -1,8 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/YoneticiPanel/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="MakaleEkle.aspx.cs" Inherits="YargimBlogWebApp.YoneticiPanel.MakaleEkle" ValidateRequest="false" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Css/FormSayfasi.css" rel="stylesheet" />
-    <script src="ckeditor/styles.js"></script>
+    <script src="ckeditor/ckeditor.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="formTasiyici">
@@ -38,7 +37,7 @@
                     <asp:LinkButton ID="lbtn_makaleEkle" runat="server" CssClass="islemButton" OnClick="lbtn_makaleEkle_Click">Makale Ekle</asp:LinkButton>
                 </div>
             </div>
-            <div style="float: left; width: 600px">
+            <div style="float: left; width: 400px">
                 <div class="satir">
                     <label>Makale Özet</label><br />
                     <asp:TextBox ID="tb_ozet" runat="server" TextMode="MultiLine" CssClass="metinKutu"></asp:TextBox>

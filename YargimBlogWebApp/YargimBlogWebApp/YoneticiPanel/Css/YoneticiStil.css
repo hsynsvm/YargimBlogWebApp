@@ -23,7 +23,13 @@ body {
     width:100px;
     margin:20px;
     margin-left:50px;
+    color:blue;
 }
+    .users:hover {
+        text-decoration: underline;
+        color: red;
+        cursor:pointer;
+    }
 .anaBaslik {
     padding: 20px 20px;
     width: 450px;
@@ -38,16 +44,8 @@ body {
     float: right;
     margin-right:-50px;
 }
-.kullanicieleman {
-    margin:5px;
-    width:100px;
-    text-decoration:none;
-    color:blue;
-    cursor:pointer;
-}
 .kullanicieleman:hover {
-    text-decoration: underline;
-    color:red;
+    color: red;
 }
 .anaIcerik {
     float: left;

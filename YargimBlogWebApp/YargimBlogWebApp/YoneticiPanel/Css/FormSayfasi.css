@@ -1,11 +1,11 @@
 ﻿.formTasiyici {
     width: 1200px;
-    background-color:black;
+    background-color:midnightblue;
 }
 
 .formBaslik {
     text-align:center;
-    color:blue;
+    color:white;
     padding: 10px;
     border: 1px solid red;
     border-top-left-radius: 10px;
@@ -13,7 +13,6 @@
 }
 
 .formIcerik {
-    color:black;
     padding: 20px;
     border: 1px solid silver;
     border-top: none;
@@ -38,17 +37,13 @@
 .islemButton {
     padding: 10px 30px;
     background-color:blue;
-    color: black;
     border-radius: 7px;
     text-decoration: none;
-}
-.islemButton:hover {
-   color:green;
 }
 
 .basariliPanel {
     padding: 10px;
-    background-color: #42bea1;
+    background-color: green;
     color: White;
     border-radius: 7px;
     border: 1px solid #029774;
@@ -56,7 +51,7 @@
 
 .basarisizPanel {
     padding: 10px;
-    background-color: #ffbdc5;
+    background-color:red;
     color: white;
     border-radius: 7px;
     border: 1px solid #fe4358;
