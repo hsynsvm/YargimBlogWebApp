@@ -33,7 +33,16 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        ///  lbl_kullanici control.
+        /// img_profilFotografi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image img_profilFotografi;
+
+        /// <summary>
+        /// lbl_kullanici control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

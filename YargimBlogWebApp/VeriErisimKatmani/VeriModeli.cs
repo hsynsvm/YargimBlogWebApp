@@ -32,7 +32,7 @@ namespace VeriErisimKatmani
                 int sayi = Convert.ToInt32(komut.ExecuteScalar());
                 if (sayi == 1)
                 {
-                    komut.CommandText = "SELECT Y.ID, Y.YoneticiTurID, YT.Isim, Y.Isim, Y.Soyisim, Y.KullaniciAdi, Y.Mail, Y.Sifre, Y.Durum, Y.Silinmis FROM Yoneticiler AS Y JOIN YoneticiTurleri AS YT ON Y.YoneticiTurID = YT.ID WHERE Y.Mail = @mail AND Y.Sifre = @sifre";
+                    komut.CommandText = "SELECT Y.ID, Y.YoneticiTurID, YT.Isim, Y.Isim, Y.Soyisim, Y.KullaniciAdi, Y.Mail, Y.Sifre, Y.Durum, Y.Silinmis, Y.Foto FROM Yoneticiler AS Y JOIN YoneticiTurleri AS YT ON Y.YoneticiTurID = YT.ID WHERE Y.Mail = @mail AND Y.Sifre = @sifre";
                     komut.Parameters.Clear();
                     komut.Parameters.AddWithValue("@mail", mail);
                     komut.Parameters.AddWithValue("@sifre", sifre);
@@ -50,6 +50,7 @@ namespace VeriErisimKatmani
                         y.Sifre = okuyucu.GetString(7);
                         y.Durum = okuyucu.GetBoolean(8);
                         y.Silinmis = okuyucu.GetBoolean(9);
+                        y.Foto = okuyucu.GetString(10);
                     }
                     return y;
                 }

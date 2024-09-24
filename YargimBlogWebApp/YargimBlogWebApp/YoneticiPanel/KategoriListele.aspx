@@ -9,9 +9,10 @@
     <div class="tabloTasiyici">
         <asp:ListView ID="lv_Kategoriler" runat="server" OnItemCommand="lv_Kategoriler_ItemCommand">
             <LayoutTemplate>
-                <table>
+                <table cellspacing="0" cellpadding="0" class="tablo">
                     <tr>
                         <th>ID</th
+                        <th></th>
                         <th>İsim</th>
                         <th>Açıklama</th>
                         <th>Durum</th>
@@ -26,14 +27,14 @@
                     <td><%# Eval("Isim") %></td>
                     <td><%# Eval("Aciklama") %></td>
                     <td><%# Eval("Durum") %></td>
-                    <td>
+                      <td>
                         <a href='KategoriDuzenle.aspx?kategoriId=<%# Eval("ID") %>' class="tablobutton duzenle">
-                            <img src="adminResimler/edit.png" /></a>
+                            <img src="adminResimler/edit.png" class="edit"/></a>
                         <asp:LinkButton ID="lbtn_durum" runat="server" class="tablobutton durum" CommandArgument='<%# Eval("ID") %>' CommandName="durum">
-                             <img src="adminResimler/arrow.png" />
+                             <img src="adminResimler/arrow.png" class="arrow"/>
                          </asp:LinkButton>
                          <asp:LinkButton ID="lbtn_sil" runat="server" class="tablobutton sil" CommandArgument='<%# Eval("ID") %>' CommandName="sil"> 
-                              <img src="adminResimler/delete.png" />
+                              <img src="adminResimler/delete.png" class="delete" />
                          </asp:LinkButton>
                       </td>
                 </tr>

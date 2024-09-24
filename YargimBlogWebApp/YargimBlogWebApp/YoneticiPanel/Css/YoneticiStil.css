@@ -40,15 +40,16 @@ body {
 .kullaniciAlani {
     padding: 10px;
     margin:10px;
-    width: 290px;
+    width: 300px;
     float: right;
-    margin-right:-50px;
+    margin-right:-150px;
 }
+
 .kullanicieleman:hover {
     color: red;
 }
 .anaIcerik {
-    float: left;
+    float:left;
     padding: 20px;
 }
 .satir{
@@ -69,5 +70,11 @@ body {
     width:20px;
     margin-bottom:-3px;
     margin-right:5px;
+}
+.foto{
+    width:100px;
+    margin-left:50px;
+    margin-top:40px;
+    border-radius:40px;
 }
 

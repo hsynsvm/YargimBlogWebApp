@@ -1,54 +1,54 @@
 ﻿.sayfaBaslik {
     padding: 10px;
     margin-bottom: 10px;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid black;
+    text-align:center;
+    background-color:midnightblue;
+    color:white;
 }
 
 .tablo {
-    width: 1350px;
+    width: 1200px;
+    background-color:lightcyan;
 }
 
-    .tablo tr {
+    .tablo tr th {
+        background-color: #e9e9e9;
+        padding: 5px;
+        text-align: left;
+        border: 1px solid black;
+        text-align:center;
     }
 
-        .tablo tr th {
-            background-color: #e9e9e9;
-            padding: 10px;
-            text-align: left;
-            border: 1px solid silver;
-        }
-
-        .tablo tr td {
-            border: 1px solid silver;
-            padding: 10px;
-        }
+    .tablo tr td {
+        border: 1px solid black;
+        padding: 5px;
+    }
 
     .tablo .alternate td {
         background-color: #efefef;
     }
 
 .tablobutton {
-    padding: 8px 5px;
     font-size: 10pt;
     border-radius: 3px;
     text-decoration: none;
 }
 
     .tablobutton img {
-        margin-bottom: -7px;
     }
 
-.duzenle {
-    background-color: #0092ff;
-    color: white;
+.edit {
+    width: 17px;
+    padding: 4px;
 }
 
-.durum {
-    background-color: #ffd800;
-    color: white;
+.arrow {
+    width: 17px;
+    padding: 4px;
 }
 
-.sil {
-    background-color: #ff0000;
-    color: white;
+.delete {
+    width: 17px;
+    padding: 4px;
 }

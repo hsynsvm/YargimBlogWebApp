@@ -28,10 +28,10 @@
                     </asp:DropDownList>
                 </div>
                 <div class="satir">
-                    <div style="width: 340px; float: left; padding-right: 10px;">
+                    <div style="width: 150px; float: left; padding-right: 10px;">
                         <asp:Image ID="img_resim" runat="server" Style="width: 100%" />
                     </div>
-                    <div style="width: 340px; float: left">
+                    <div style="width: 150px; float: left">
                         <label>Kapak Resim</label><br />
                         <asp:FileUpload ID="fu_resim" runat="server" CssClass="bolunmusmetinKutu" />
                     </div>
@@ -44,7 +44,7 @@
                     <asp:LinkButton ID="lbtn_makaleduzenle" runat="server" CssClass="islemButton" OnClick="lbtn_makaleduzenle_Click">Makale Düzenle</asp:LinkButton>
                 </div>
             </div>
-            <div style="float: left; width: 600px">
+            <div style="float: left; width: 300px">
                 <div class="satir">
                     <label>Makale Özet</label><br />
                     <asp:TextBox ID="tb_ozet" runat="server" TextMode="MultiLine" CssClass="metinKutu"></asp:TextBox>

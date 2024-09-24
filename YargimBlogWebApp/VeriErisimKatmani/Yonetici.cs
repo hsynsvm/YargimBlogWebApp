@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,5 +19,6 @@ namespace VeriErisimKatmani
         public string Sifre { get; set; }
         public bool Durum { get; set; }
         public bool Silinmis { get; set; }
+        public string Foto {  get; set; }
     }
 }

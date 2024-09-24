@@ -11,7 +11,7 @@
             <LayoutTemplate>
                 <table cellspacing="0" cellpadding="0" class="tablo">
                     <tr>
-                        <th>#</th>
+                        <th>Görsel</th>
                         <th>ID</th>
                         <th>Başlık</th>
                         <th>Kategori</th>
@@ -38,9 +38,9 @@
                     <td><%# Eval("Durum") %></td>
                     <td>
                         <a href='MakaleDuzenle.aspx?makaleId=<%# Eval("ID") %>' class="tablobutton duzenle">
-                            <img src="adminResimler/edit.png" /></a>
+                            <img src="adminResimler/edit.png" class="edit" /></a>
                         <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil" class="tablobutton sil">
-                          <img src="adminResimler/delete.png" />
+                          <img src="adminResimler/delete.png" class="delete"/>
                     </asp:LinkButton>
                     </td>
                 </tr>

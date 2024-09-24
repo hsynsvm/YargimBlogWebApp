@@ -75,6 +75,7 @@
     <Content Include="YoneticiPanel\adminResimler\arrow.png" />
     <Content Include="YoneticiPanel\adminResimler\articleadd.png" />
     <Content Include="YoneticiPanel\adminResimler\background.png" />
+    <Content Include="YoneticiPanel\adminResimler\Ben.jpg" />
     <Content Include="YoneticiPanel\adminResimler\comment.png" />
     <Content Include="YoneticiPanel\adminResimler\delete.png" />
     <Content Include="YoneticiPanel\adminResimler\edit.png" />

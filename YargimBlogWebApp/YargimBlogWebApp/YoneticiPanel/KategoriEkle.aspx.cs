@@ -24,7 +24,7 @@ namespace YargimBlogWebApp.YoneticiPanel
                 kat.Isim = tb_isim.Text;
                 kat.Aciklama = tb_aciklama.Text;
                 kat.Silinmis = false;
-                kat.Durum = cb_aktif.Checked;//checked seçili ise true değilse false döndürür
+                kat.Durum = cb_aktif.Checked;
 
                 if (vm.KategoriEkle(kat))
                 {

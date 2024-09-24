@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\css\\formsayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\css\\formsayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YoneticiStil.css",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Css\\YoneticiStil.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-24T20:35:11.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "YoneticiMaster.Master",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-24T20:12:21.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "YoneticiDefault.aspx",
               "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
               "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
@@ -30,20 +60,7 @@
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-23T12:29:57.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormSayfasi.css",
-              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\FormSayfasi.css",
-              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Css\\FormSayfasi.css",
-              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\FormSayfasi.css",
-              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Css\\FormSayfasi.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-23T12:25:12.244Z",
+              "WhenOpened": "2024-09-24T20:11:34.686Z",
               "EditorCaption": ""
             }
           ]

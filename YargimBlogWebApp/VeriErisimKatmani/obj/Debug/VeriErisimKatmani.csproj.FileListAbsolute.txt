@@ -4,3 +4,9 @@ C:\Users\ramse\Desktop\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKa
 C:\Users\ramse\Desktop\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.csproj.CoreCompileInputs.cache
 C:\Users\ramse\Desktop\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.dll
 C:\Users\ramse\Desktop\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.pdb
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\bin\Debug\VeriErisimKatmani.dll
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\bin\Debug\VeriErisimKatmani.pdb
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.csproj.AssemblyReference.cache
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.csproj.CoreCompileInputs.cache
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.dll
+C:\Users\ramse\Documents\GitHub\YargimBlogWebApp\YargimBlogWebApp\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.pdb
