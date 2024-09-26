@@ -50,7 +50,7 @@
                     </div>
                     <div class="satir">
                         <img src="adminResimler/admin.png" class="icon" />
-                        <a href="YoneticiIslemleri.aspx">Yonetici Islemleri</a>
+                        <a href="YoneticiIslemleri.aspx">Yönetici İşlemleri</a>
                     </div>
                     <div style="clear: both"></div>
                 </div>

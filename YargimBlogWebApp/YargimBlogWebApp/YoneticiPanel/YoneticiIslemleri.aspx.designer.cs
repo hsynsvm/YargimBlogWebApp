@@ -15,49 +15,67 @@ namespace YargimBlogWebApp.YoneticiPanel
     {
 
         /// <summary>
-        /// yetkisiz control.
+        /// pnl_basarisiz control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel yetkisiz;
+        protected global::System.Web.UI.WebControls.Panel pnl_basarisiz;
 
         /// <summary>
-        /// yetkili control.
+        /// lbl_hatamesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel yetkili;
+        protected global::System.Web.UI.WebControls.Label lbl_hatamesaj;
 
         /// <summary>
-        /// tb_ad control.
+        /// pnl_basarili control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_ad;
+        protected global::System.Web.UI.WebControls.Panel pnl_basarili;
 
         /// <summary>
-        /// tb_soyad control.
+        /// rb_YoneticiTur_ID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_soyad;
+        protected global::System.Web.UI.WebControls.RadioButtonList rb_YoneticiTur_ID;
 
         /// <summary>
-        /// tb_kullaniciAdi control.
+        /// tb_isim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_kullaniciAdi;
+        protected global::System.Web.UI.WebControls.TextBox tb_isim;
+
+        /// <summary>
+        /// tb_soyisim control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_soyisim;
+
+        /// <summary>
+        /// tb_kullaniciadi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_kullaniciadi;
 
         /// <summary>
         /// tb_mail control.
@@ -78,22 +96,13 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected global::System.Web.UI.WebControls.TextBox tb_sifre;
 
         /// <summary>
-        /// ddl_yetki control.
+        /// cb_durum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddl_yetki;
-
-        /// <summary>
-        /// fu_profilResmi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fu_profilResmi;
+        protected global::System.Web.UI.WebControls.CheckBox cb_durum;
 
         /// <summary>
         /// lbtn_ekle control.
@@ -102,51 +111,6 @@ namespace YargimBlogWebApp.YoneticiPanel
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_ekle;
-
-        /// <summary>
-        /// pnl_basarisiz control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnl_basarisiz;
-
-        /// <summary>
-        /// lbl_bilgi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_bilgi;
-
-        /// <summary>
-        /// tb_yetkiAdi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_yetkiAdi;
-
-        /// <summary>
-        /// lbtn_yetkiEkle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_yetkiEkle;
-
-        /// <summary>
-        /// lv_yetki control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lv_yetki;
+        protected global::System.Web.UI.WebControls.Button lbtn_ekle;
     }
 }

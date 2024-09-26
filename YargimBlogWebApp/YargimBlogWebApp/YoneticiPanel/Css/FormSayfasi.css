@@ -13,7 +13,7 @@
 }
 
 .formIcerik {
-    padding: 20px;
+    padding: 10px;
     border: 1px solid silver;
     border-top: none;
     border-bottom-left-radius: 10px;
@@ -40,6 +40,10 @@
     border-radius: 7px;
     text-decoration: none;
 }
+.islemButton:hover{
+    background-color:white;
+    cursor:pointer;
+}
 
 .basariliPanel {
     padding: 10px;
@@ -55,4 +59,7 @@
     color: white;
     border-radius: 7px;
     border: 1px solid #fe4358;
+}
+.Formetiket{
+    color:yellow;
 }
