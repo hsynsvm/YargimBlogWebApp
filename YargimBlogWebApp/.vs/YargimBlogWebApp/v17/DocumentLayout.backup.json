@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\css\\listesayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\css\\listesayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +38,33 @@
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-26T17:17:54.63Z",
+              "WhenOpened": "2024-09-26T18:45:43.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VeriModeli.cs",
-              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModeli.cs",
-              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\VeriModeli.cs",
-              "ViewState": "AgIAAPMAAAAAAAAAAAAUwAcBAAANAAAAAAAAAA==",
+              "Title": "YoneticiIslemleri.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwFkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:14:31.291Z",
+              "WhenOpened": "2024-09-26T18:43:20.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListeSayfasi.css",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\ListeSayfasi.css",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\Css\\ListeSayfasi.css",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\Css\\ListeSayfasi.css",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\Css\\ListeSayfasi.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T18:41:14.108Z",
               "EditorCaption": ""
             },
             {
@@ -64,26 +77,7 @@
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-26T17:09:03.741Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 327,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "YoneticiIslemleri.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
-              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
-              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
-              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwDIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:06:32.381Z",
+              "WhenOpened": "2024-09-26T18:39:54.542Z",
               "EditorCaption": ""
             }
           ]

@@ -42,7 +42,7 @@
                     </div>
                     <div class="satir">
                         <img src="adminResimler/team.png" class="icon" />
-                        <a href="#">Üyeler</a>
+                        <a href="Uyeler.aspx">Üyeler</a>
                     </div>
                     <div class="satir">
                         <img src="adminResimler/comment.png" class="icon" />
