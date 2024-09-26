@@ -17,5 +17,6 @@ namespace VeriErisimKatmani
         public DateTime UyelikTarihi { get; set; }
         public bool Durum { get; set; }
         public bool Silinmis { get; set; }
+        public string Foto { get; set; }
     }
 }

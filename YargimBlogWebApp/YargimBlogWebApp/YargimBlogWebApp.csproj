@@ -403,6 +403,7 @@
     <Content Include="YoneticiPanel\Css\FormSayfasi.css" />
     <Content Include="YoneticiPanel\Css\girisCss.css" />
     <Content Include="YoneticiPanel\Css\ListeSayfasi.css" />
+    <Content Include="YoneticiPanel\Css\Yonetici.css" />
     <Content Include="YoneticiPanel\Css\YoneticiStil.css" />
     <Content Include="YoneticiPanel\Giris.aspx" />
   </ItemGroup>
@@ -464,6 +465,13 @@
     <Compile Include="YoneticiPanel\YoneticiDefault.aspx.designer.cs">
       <DependentUpon>YoneticiDefault.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\YoneticiIslemleri.aspx.cs">
+      <DependentUpon>YoneticiIslemleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiIslemleri.aspx.designer.cs">
+      <DependentUpon>YoneticiIslemleri.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\YoneticiMaster.Master.cs">
       <DependentUpon>YoneticiMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -487,6 +495,7 @@
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
     <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\YoneticiDefault.aspx" />
+    <Content Include="YoneticiPanel\YoneticiIslemleri.aspx" />
     <Content Include="YoneticiPanel\YoneticiMaster.Master" />
     <Content Include="YoneticiPanel\ckeditor\bender-runner.config.json" />
     <Content Include="YoneticiPanel\ckeditor\CHANGES.md" />

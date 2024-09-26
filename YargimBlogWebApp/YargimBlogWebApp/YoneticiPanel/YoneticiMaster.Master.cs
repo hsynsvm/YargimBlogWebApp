@@ -16,7 +16,7 @@ namespace YargimBlogWebApp.YoneticiPanel
             {
                 Yonetici y = (Yonetici)Session["GirisYapanYonetici"];
                 lbl_kullanici.Text = y.KullaniciAdi + " (" + y.YoneticiTur + ")";
-                img_profilFotografi.ImageUrl = ("adminResimler") + y.Foto;
+                img_profilFotografi.ImageUrl = ("adminResimler/") + y.Foto;
             }
             else
             {

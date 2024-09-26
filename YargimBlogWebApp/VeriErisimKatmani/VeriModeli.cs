@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,7 +51,14 @@ namespace VeriErisimKatmani
                         y.Sifre = okuyucu.GetString(7);
                         y.Durum = okuyucu.GetBoolean(8);
                         y.Silinmis = okuyucu.GetBoolean(9);
-                        y.Foto = okuyucu.GetString(10);
+                        if(string.IsNullOrEmpty(okuyucu.GetString(10)))
+                        {
+                            y.Foto = "none.png";
+                        }
+                        else
+                        {
+                            y.Foto = okuyucu.GetString(10);
+                        }
                     }
                     return y;
                 }
@@ -62,6 +70,161 @@ namespace VeriErisimKatmani
             catch
             {
                 return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public bool varmi(string kullaniciAdi,string mail,string tablo)
+        {
+            try
+            {
+                int mailSayi = 0;
+                int kullanici = 0;
+
+                komut.CommandText = "SELECT COUNT(*) FROM @tablo WHERE KullaniciAdi=@kAdi";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@tablo",tablo);
+                komut.Parameters.AddWithValue("@kAdi", kullaniciAdi);
+                baglanti.Open();
+                kullanici = Convert.ToInt32(komut.ExecuteScalar());
+                komut.CommandText = "SELECT COUNT(*) FROM @tablo WHERE Mail=@mail";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@tablo", tablo);
+                komut.Parameters.AddWithValue("@mail", mail);
+                mailSayi = Convert.ToInt32(komut.ExecuteScalar());
+
+                if (kullanici > 0 || mailSayi > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch 
+            {
+
+                return true;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+        public void YoneticiEkle(Yonetici y)
+        {
+            try
+            {
+                komut.CommandText = "INSERT INTO Yoneticiler(YoneticiTurID,YoneticiTur,Isim,Soyisim,KullaniciAdi,Mail,Sifre,Durum,Silinmis,Foto) VALUES(@yoneticiturid,@yoneticitur,@ısim,@soyisim,@kullaniciadi,@mail,@sifre,@durum,@silinmis,@foto)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@yoneticiturid", y.YoneticiTurID);
+                komut.Parameters.AddWithValue("@yoneticitur", y.YoneticiTur);
+                komut.Parameters.AddWithValue("@ısim", y.Isim);
+                komut.Parameters.AddWithValue("@soyisim", y.Soyisim);
+                komut.Parameters.AddWithValue("@kullaniciadi", y.KullaniciAdi);
+                komut.Parameters.AddWithValue("@mail", y.Mail);
+                komut.Parameters.AddWithValue("@sifre", y.Sifre);
+                komut.Parameters.AddWithValue("@durum", y.Durum);
+                komut.Parameters.AddWithValue("@silinmis", y.Silinmis);
+                komut.Parameters.AddWithValue("@foto", y.Foto);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+        public List<Yonetici>YoneticiListele()
+        {
+            List<Yonetici> yoneticiler = new List<Yonetici>();
+            try
+            {
+                komut.CommandText = "SELECT Y.ID,Y.YoneticiTurID,Y.YoneticiTur,Y.KullaniciAdi,Y.Durum,Y.Foto FROM Yoneticiler AS Y";
+                komut.Parameters.Clear();
+                baglanti.Open() ;
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while(okuyucu.Read())
+                {
+                    Yonetici y = new Yonetici();
+                    y.ID = okuyucu.GetInt32(0);
+                    y.YoneticiTurID = okuyucu.GetInt32(1);
+                    y.YoneticiTur = okuyucu.GetString(2);
+                    y.KullaniciAdi = okuyucu.GetString(3);
+                    y.Durum = okuyucu.GetBoolean(4);
+                    y.Foto = okuyucu.GetString(5);
+                }
+                return yoneticiler;
+            }
+            catch 
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+        public void YetkiOlustur(string yetki)
+        {
+            try
+            {
+                komut.CommandText = "INSERT INTO YoneticiTurleri(ID) VALUES(@id)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", yetki);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+        public List<Yonetici> YetkiListele()
+        {
+            List<Yonetici> gorevListele = new List<Yonetici>();
+            try
+            {
+                komut.CommandText = "SELECT YoneticiTurID,YoneticiTur, Yonetici FROM Yoneticiler";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Yonetici gorev = new Yonetici();
+                    gorev.YoneticiTurID = okuyucu.GetInt32(0);
+                    gorev.YoneticiTur = okuyucu.GetString(1);
+                    gorevListele.Add(gorev);
+                }
+                return gorevListele;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+        public bool YetkiSil(int id)
+        {
+            try
+            {
+                komut.CommandText = "DELETE FROM Yoneticiler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
             }
             finally
             {

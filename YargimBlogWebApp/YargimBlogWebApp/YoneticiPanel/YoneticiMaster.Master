@@ -15,7 +15,6 @@
         <div class="anasayfa">
             <div class="solMenu">
                 <div class="resimDiv">
-                    <br />
                      <asp:Image ID="img_profilFotografi" runat="server" CssClass="foto" ImageUrl="../Resimler/MakaleResimleri/none.png"/><br />
                      <asp:Label ID="lbl_kullanici" runat="server" CssClass="users">Kullanıcı Adı</asp:Label>
                     <br />
@@ -51,7 +50,7 @@
                     </div>
                     <div class="satir">
                         <img src="adminResimler/admin.png" class="icon" />
-                        <a href="#">Yönetici İşlemleri</a>
+                        <a href="YoneticiIslemleri.aspx">Yonetici Islemleri</a>
                     </div>
                     <div style="clear: both"></div>
                 </div>

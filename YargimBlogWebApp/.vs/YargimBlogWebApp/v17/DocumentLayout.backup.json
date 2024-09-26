@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticidefault.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\makaleekle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,38 +29,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 93,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VeriModeli.cs",
-              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModeli.cs",
-              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\VeriModeli.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwCIAAACfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T20:23:44.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "YoneticiMaster.Master.cs",
               "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master.cs",
               "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master.cs",
               "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master.cs",
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T20:22:18.475Z",
+              "WhenOpened": "2024-09-26T13:48:25.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "YoneticiMaster.Master",
               "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
               "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
@@ -64,7 +55,7 @@
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-24T20:12:21.473Z",
+              "WhenOpened": "2024-09-26T13:47:53.34Z",
               "EditorCaption": ""
             },
             {
@@ -77,7 +68,33 @@
               "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiDefault.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-24T20:11:34.686Z",
+              "WhenOpened": "2024-09-26T13:47:50.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MakaleEkle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:46:46.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MakaleEkle.aspx",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T13:46:07.417Z",
               "EditorCaption": ""
             }
           ]

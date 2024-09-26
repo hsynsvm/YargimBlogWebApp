@@ -23,6 +23,7 @@ CREATE TABLE Yoneticiler
 	Sifre nvarchar(20) not null,
 	Durum bit,
 	Silinmis bit,
+	Foto nvarchar(150),
 	CONSTRAINT pk_yonetici PRIMARY KEY(ID),
 	CONSTRAINT fk_yoneticiYoneticiTur FOREIGN KEY(YoneticiTurID) REFERENCES YoneticiTurleri(ID)
 )
@@ -49,7 +50,6 @@ CREATE TABLE Makaleler
 	Ozet nvarchar(500),
 	Icerik ntext,
 	EklemeTarihi Datetime,
-	DuzenlemeTarihi Datetime,
 	GoruntulemeSayisi bigint,
 	KapakResim nvarchar(50),
 	Durum bit,
@@ -69,6 +69,7 @@ CREATE TABLE Uyeler
 	UyelikTarihi datetime,
 	Durum bit,
 	Silinmis bit,
+	Foto nvarchar(150),
 	CONSTRAINT pk_Uye PRIMARY KEY(ID)
 )
 GO
@@ -81,6 +82,8 @@ CREATE TABLE Yorumlar
 	EklemeTarihi datetime,
 	Durum bit,
 	UyeAdi nvarchar(25),
+	BegeniSayisi int,
+	Onay bit,
 	CONSTRAINT pk_Yorum PRIMARY KEY(ID),
 	CONSTRAINT fk_yorumMakale FOREIGN KEY(MakaleID) REFERENCES Makaleler(ID),
 	CONSTRAINT fk_yorumUye FOREIGN KEY(UyeID) REFERENCES Uyeler(ID)
