@@ -21,6 +21,7 @@
                 <a href="UyeOl.aspx">Üye Ol</a>
                 <a href="Hakkimizda.aspx">Hakkımızda</a>
                 <a href="Iletisim.aspx">İletişim</a>
+                <a href="YoneticiPanel/Giris.aspx">Yönetici Paneli Giriş</a>
             </div>
             <div style="clear: both"></div>
         </div>
