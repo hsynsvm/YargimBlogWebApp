@@ -68,10 +68,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\Arayuz.css" />
+    <Content Include="Css\Arayuz2.css" />
     <Content Include="Default.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
     <Content Include="MakaleIcerik.aspx" />
+    <Content Include="Reklamlar\120x600.gif" />
+    <Content Include="Reklamlar\160x600.gif" />
+    <Content Include="Reklamlar\250x250.gif" />
+    <Content Include="Reklamlar\300x250.gif" />
+    <Content Include="Reklamlar\336x280.gif" />
+    <Content Include="Reklamlar\468x60.gif" />
+    <Content Include="Reklamlar\728x90.gif" />
     <Content Include="Resimler\analogo.png" />
     <Content Include="Resimler\HakkimizdaResimler\2019yh.jpg" />
     <Content Include="Resimler\HakkimizdaResimler\20200610193130!Eczacıbaşı_Holding_logosu.png" />
@@ -84,6 +92,7 @@
     <Content Include="Resimler\Icon\email-marketing.png" />
     <Content Include="Resimler\Icon\facebook.png" />
     <Content Include="Resimler\Icon\instagram.png" />
+    <Content Include="Resimler\Icon\youtube.png" />
     <Content Include="Resimler\MakaleResimleri\none.png" />
     <Content Include="Resimler\UyePanel\uyeol2.png" />
     <Content Include="Resimler\UyePanel\üyeol.jpg" />
@@ -639,10 +648,7 @@
     <Content Include="YoneticiPanel\ckeditor\SECURITY.md" />
     <Content Include="YoneticiPanel\ckeditor\skins\moono-lisa\readme.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gif\" />
-    <Folder Include="Reklamlar\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">
       <Project>{a26a3626-5526-4781-b142-5c0e0120d9b1}</Project>

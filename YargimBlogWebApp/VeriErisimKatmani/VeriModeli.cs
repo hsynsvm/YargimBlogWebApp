@@ -548,6 +548,37 @@ namespace VeriErisimKatmani
                 baglanti.Close();
             }
         }
+        public List<Kategori> TumKategorileriGetir(bool durum)
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                komut.CommandText = "SELECT ID, Isim, Aciklama, Durum FROM Kategoriler WHERE Durum=@d";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@d", durum);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.Aciklama = okuyucu.GetString(2);
+                    kat.Durum = okuyucu.GetBoolean(3);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
         #endregion
 
         #region Makale Metotlari

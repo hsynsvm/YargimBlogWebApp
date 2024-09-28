@@ -5,83 +5,49 @@
 <head runat="server">
     <title>Yargım Blog Web</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-        <link href="Css/Arayuz.css" rel="stylesheet" />
+        <link href="Css/Arayuz2.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <div class="UstPanel ">
-                <a href="Default.aspx">ANASAYFA</a>
-                <a href="Hakkimizda.aspx">HAKKIMIZDA</a>
-                <a href="Iletisim.aspx">İLETİŞİM</a>
+        <a name="ust"></a>
+        <div class="anaTasiyici">
+            <div class="sayfaBaslik">
+                <h2>
+                    <a href="Default.aspx"><img src="Resimler/analogo.png"  style="width:100px;"/></a></h2>
             </div>
-            <div class="tasiyici ">
-                <div class="logoPanel">
-                    <a href="https://www.instagram.com/">
-                        <img src="Resimler/Icon/instagram.png" /> </a>
-                    <a href="https://www.facebook.com/">
-                        <img src="Resimler/Icon/facebook.png" />  </a>
-                    <a href="https://www.microsoft.com/tr-tr/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">
-                        <img src="Resimler/Icon/email-marketing.png" /> </a>
-                    <a href="#">
-                        <img src="assests/siteresimleri/5305164_play_video_youtube_youtube%20logo_icon.png" /></a>
-                    <div>
-                        <a href="Default.aspx">Yargım Blog Web</a>
-                    </div>
-
-                    <div>
-
-                        <asp:Panel ID="pnl_girisyok" runat="server" class="uyepanel">
-                            <a href="UyeGiris.aspx">Giriş Yap</a>
-                            <a href="UyeOl.aspx">Üye Ol</a>
-                        </asp:Panel>
-
-                        <asp:Panel ID="pnl_girisvar" runat="server" class="uyepanel">
-                            <a href="UyePaneli/profil.aspx">
-                                <asp:Literal ID="ltrl_uye" runat="server"></asp:Literal></a>
-                            <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
-                        </asp:Panel>
-                      
-                    </div>
-                    <div style="clear: both"></div>
-                </div>
-
+            <div class="uyePanel">
+                <a href="UyeGiris.aspx">Üye Giriş</a>
+                <a href="UyeOl.aspx">Üye Ol</a>
+                <a href="Hakkimizda.aspx">Hakkımızda</a>
+                <a href="Iletisim.aspx">İletişim</a>
             </div>
+            <div style="clear: both"></div>
         </div>
-        <div class="kategorimenu">
-            <div class="tasiyici">
+        <div class="ayrac"></div>
+        <div class="anaTasiyici">
+            <div class="menu">
+                <a href="Default.aspx">Tüm Makaleler</a> | 
                 <asp:Repeater ID="rp_kategoriler" runat="server">
                     <ItemTemplate>
-                        <a href='Default.aspx?kategoriID=<%# Eval("ID") %>' class="menueleman"><%# Eval("Isim") %></a>
+                        <a href='Default.aspx?kid=<%# Eval("ID") %>'><%# Eval("Isim") %></a>
                     </ItemTemplate>
                 </asp:Repeater>
             </div>
         </div>
-        <div class="solpanel">
-            <a href="http://www.turhost.com/r/104820/">
-                <img src="assests/reklamgorselleri/120x600.gif" />
-            </a>
-        </div>
-        <div class="tasiyici">
-            <div class="icerik">
-                <asp:Panel ID="pnlAramaSonuc" runat="server">
-                    <asp:Label ID="lblAramaSonuc" runat="server" CssClass="AramaSonucu"></asp:Label>
-                </asp:Panel>
+        <div class="ayrac"></div>
+        <div class="anaTasiyici">
+            <div class="makaleAlani">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-        </div>
-        <div class="sagpanel">
-            <label>Yargım Blog Web Nedir?</label>
-            <img src="Resimler/analogo.png" />
-            <label2></label2>
-            <a href="Hakkimizda.aspx">
-                <label3>Hakkımızda</label3>
-            </a>
-        </div>
-        <div style="clear: both"></div>
-        <div class="altpanel">
+            <div class="reklamalani">
+                <a href="https://www.turhost.com/r/104820/hosting">
+                    <img src="reklamlar/160x600.gif" style="margin-left: 20px;" />
+                </a>
+            </div>
+            <div style="clear: both"></div>
+            <a href="#ust" style="float: right; margin: 20px;">Yukarı çık</a>
         </div>
     </form>
 </body>

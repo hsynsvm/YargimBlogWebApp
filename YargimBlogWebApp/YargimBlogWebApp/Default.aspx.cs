@@ -19,40 +19,33 @@ namespace YargimBlogWebApp
                 {
                     List<Makale> makaleler = vm.MakaleListele();
                     makaleler.Reverse();
-                    lv_makaleler.DataSource = makaleler;
-                    lv_makaleler.DataBind();
-                    pnlDataPager.Visible = lv_makaleler.Items.Count > 0;
+                    lv_makaleler1.DataSource = makaleler;
+                    lv_makaleler1.DataBind();
+                    
                 }
                 else
                 {
                     int katid = Convert.ToInt32(Request.QueryString["kategoriID"]);
                     List<Makale> makaleler = vm.MakaleListele(katid);
                     makaleler.Reverse();
-                    lv_makaleler.DataSource = makaleler;
-                    lv_makaleler.DataBind();
-                    pnlDataPager.Visible = lv_makaleler.Items.Count > 0;
+                    lv_makaleler1.DataSource = makaleler;
+                    lv_makaleler1.DataBind();
+                    
                 }
             }
-        }
-        protected void lv_makaleler_PagePropertiesChanging(object sender, PagePropertiesChangingEventArgs e)
-        {
-            DataPager1.SetPageProperties(e.StartRowIndex, e.MaximumRows, false);
-
             if (Request.QueryString.Count == 0)
             {
-                List<Makale> makaleler = vm.MakaleListele();
-                makaleler.Reverse();
-                lv_makaleler.DataSource = makaleler;
-                lv_makaleler.DataBind();
+                lv_makaleler1.DataSource = vm.MakaleListele();
+                lv_makaleler1.DataBind();
             }
             else
             {
-                int katid = Convert.ToInt32(Request.QueryString["kategoriID"]);
-                List<Makale> makaleler = vm.MakaleListele(katid);
-                makaleler.Reverse();
-                lv_makaleler.DataSource = makaleler;
-                lv_makaleler.DataBind();
+                int kid = Convert.ToInt32(Request.QueryString["kid"]);
+                lv_makaleler1.DataSource = vm.MakaleListele(kid);
+                lv_makaleler1.DataBind();
             }
         }
+        
+        
     }
 }

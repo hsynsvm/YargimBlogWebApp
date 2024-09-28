@@ -15,30 +15,12 @@ namespace YargimBlogWebApp
     {
 
         /// <summary>
-        /// lv_makaleler control.
+        /// lv_makaleler1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lv_makaleler;
-
-        /// <summary>
-        /// pnlDataPager control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlDataPager;
-
-        /// <summary>
-        /// DataPager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataPager DataPager1;
+        protected global::System.Web.UI.WebControls.Repeater lv_makaleler1;
     }
 }
