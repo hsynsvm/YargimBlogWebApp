@@ -1,6 +1,7 @@
 ﻿.formTasiyici {
     width: 1200px;
-    background-color:midnightblue;
+    background-image: url('../adminresimler/yargibackground.jpeg');
+    background-size: cover;
 }
 
 .formBaslik {

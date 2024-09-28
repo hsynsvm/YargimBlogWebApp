@@ -87,6 +87,7 @@
     <Content Include="YoneticiPanel\adminResimler\pyatay.jpg" />
     <Content Include="YoneticiPanel\adminResimler\table.png" />
     <Content Include="YoneticiPanel\adminResimler\team.png" />
+    <Content Include="YoneticiPanel\adminResimler\yargibackground.jpeg" />
     <Content Include="YoneticiPanel\ckeditor\adapters\jquery.js" />
     <Content Include="YoneticiPanel\ckeditor\build-config.js" />
     <Content Include="YoneticiPanel\ckeditor\ckeditor.js" />

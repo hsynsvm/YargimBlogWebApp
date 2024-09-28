@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{74C81517-59B9-4797-8B53-CF0C52902BB7}|YargimBlogWebApp\\YargimBlogWebApp.csproj|solutionrelative:yargimblogwebapp\\yoneticipanel\\yoneticiislemleri.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\verierisimkatmani\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\ramse\\documents\\github\\yargimblogwebapp\\yargimblogwebapp\\verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26A3626-5526-4781-B142-5C0E0120D9B1}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +17,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 301,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "YoneticiIslemleri.aspx",
-              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx",
-              "RelativeDocumentMoniker": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx",
-              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx",
-              "RelativeToolTip": "YargimBlogWebApp\\YoneticiPanel\\YoneticiIslemleri.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-26T18:39:54.542Z",
+              "Title": "Yonetici.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\Yonetici.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\Yonetici.cs",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\Yonetici.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\Yonetici.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T09:20:31.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeriModeli.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModeli.cs",
+              "ToolTip": "C:\\Users\\ramse\\Documents\\GitHub\\YargimBlogWebApp\\YargimBlogWebApp\\VeriErisimKatmani\\VeriModeli.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\VeriModeli.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwPQCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T09:10:45.54Z",
               "EditorCaption": ""
             }
           ]

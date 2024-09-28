@@ -85,8 +85,8 @@
                     <td><%# Eval("Mail") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>'><img src="adminResimler/delete.png" class="delete"/></asp:LinkButton>
-                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>'><img src="adminResimler/edit.png" class="edit" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="adminResimler/delete.png" class="delete"/></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="adminResimler/edit.png" class="edit" /></asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>
