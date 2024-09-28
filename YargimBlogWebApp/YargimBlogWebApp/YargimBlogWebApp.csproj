@@ -406,6 +406,7 @@
     <Content Include="YoneticiPanel\Css\ListeSayfasi.css" />
     <Content Include="YoneticiPanel\Css\YoneticiStil.css" />
     <Content Include="YoneticiPanel\Giris.aspx" />
+    <Content Include="YoneticiPanel\Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -485,6 +486,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiMaster.Master.designer.cs">
       <DependentUpon>YoneticiMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

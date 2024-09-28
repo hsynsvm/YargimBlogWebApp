@@ -3,7 +3,6 @@
     background-image: url('../adminresimler/yargibackground.jpeg');
     background-size: cover;
 }
-
 .formBaslik {
     text-align:center;
     color:white;
@@ -12,7 +11,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .formIcerik {
     padding: 10px;
     border: 1px solid silver;
@@ -20,21 +18,17 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
 .satir {
     padding: 10px 0;
 }
-
 .metinKutu {
     width: 98%;
     padding: 7px;
 }
-
 .bolunmusmetinKutu {
     width: 640px;
     padding: 7px;
 }
-
 .islemButton {
     padding: 10px 30px;
     background-color:blue;
@@ -45,7 +39,6 @@
     background-color:white;
     cursor:pointer;
 }
-
 .basariliPanel {
     padding: 10px;
     background-color: green;
@@ -53,7 +46,6 @@
     border-radius: 7px;
     border: 1px solid #029774;
 }
-
 .basarisizPanel {
     padding: 10px;
     background-color:red;
@@ -63,4 +55,47 @@
 }
 .Formetiket{
     color:yellow;
+}
+.yonetimpaneli {
+    background-image: url('../adminresimler/yargibackground.jpeg');
+    background-size:cover;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px;
+    width: 100%;
+}
+.panel {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+    .panel p {
+        font-size: 20pt;
+        margin-bottom: 5px;
+        color:white;
+    }
+
+    .panel img {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 15px auto 10px;
+    }
+.yoneticisayisi{
+    font-size:20px;
+    color:white;
+}
+.makalesayisi {
+    font-size: 20px;
+    color: white;
+}
+.yorumsayisi {
+    font-size: 20px;
+    color: white;
+}
+.uyesayisi {
+    font-size: 20px;
+    color: white;
 }

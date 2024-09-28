@@ -80,13 +80,11 @@ namespace VeriErisimKatmani
         public int YoneticiSayisiGetir()
         {
             SqlCommand komut = new SqlCommand();
-
             try
             {
                 komut.CommandText = "SELECT COUNT(*) FROM Yoneticiler";
                 komut.Parameters.Clear();
                 komut.Connection = baglanti;
-
                 baglanti.Open();
                 return (int)komut.ExecuteScalar();
             }
@@ -103,13 +101,11 @@ namespace VeriErisimKatmani
         public int MakaleSayisiGetir()
         {
             SqlCommand komut = new SqlCommand();
-
             try
             {
                 komut.CommandText = "SELECT COUNT(*) FROM Makaleler";
                 komut.Parameters.Clear();
                 komut.Connection = baglanti;
-
                 baglanti.Open();
                 return (int)komut.ExecuteScalar();
             }
@@ -125,13 +121,11 @@ namespace VeriErisimKatmani
         public int UyeSayisiGetir()
         {
             SqlCommand komut = new SqlCommand();
-
             try
             {
                 komut.CommandText = "SELECT COUNT(*) FROM Uyeler";
                 komut.Parameters.Clear();
                 komut.Connection = baglanti;
-
                 baglanti.Open();
                 return (int)komut.ExecuteScalar();
             }
@@ -147,13 +141,11 @@ namespace VeriErisimKatmani
         public int YorumSayisiGetir()
         {
             SqlCommand komut = new SqlCommand();
-
             try
             {
                 komut.CommandText = "SELECT COUNT(*) FROM Yorumlar";
                 komut.Parameters.Clear();
                 komut.Connection = baglanti;
-
                 baglanti.Open();
                 return (int)komut.ExecuteScalar();
             }

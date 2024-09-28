@@ -46,7 +46,7 @@
                     </div>
                     <div class="satir">
                         <img src="adminResimler/comment.png" class="icon" />
-                        <a href="#">Yorumlar</a>
+                        <a href="Yorumlar.aspx">Yorumlar</a>
                     </div>
                     <div class="satir">
                         <img src="adminResimler/admin.png" class="icon" />
