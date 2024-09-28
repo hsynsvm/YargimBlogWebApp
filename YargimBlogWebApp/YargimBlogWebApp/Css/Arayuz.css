@@ -187,30 +187,37 @@ body {
             }
 
 .hakkimizda {
-    padding-top: 30px;
-    width: 750px;
+    background-image: url('../resimler/hakkimizdaresimler/hakkimizda.jpeg');
+    height: 700px;
+    background-size: cover;
+    color: white;
 }
 
     .hakkimizda label {
-        font-size: 14pt;
+        font-size: 15pt;
     }
 
     .hakkimizda p {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
+.referans{
+    margin-left:20px;
+    padding:20px;
+    float:left;
+}
 
 .makale {
     color: dimgray;
     padding: 10px;
-    width: 750px;
+    width: 1200px;
 }
 
     .makale .resim {
     }
 
         .makale .resim img {
-            width: 750px;
-            height: 750px;
+            width: 120px;
+            height: 120px;
         }
 
     .makale .baslik {
@@ -250,11 +257,11 @@ body {
         text-align: center;
         padding: 3px;
         border-radius: 15px;
-        background-color: #9f634e;
+        background-color: rgb(39,16,4);
     }
 
         .makale .devami a:hover {
-            background-color: #7f9288;
+            background-color: rgb(191,109,40);
         }
 
 .ozelsayfalayici {
@@ -273,8 +280,9 @@ body {
     }
 
         .ozelsayfalayici a:hover {
-            background-color: black;
+            background-color: blue;
             color: white;
+            cursor:pointer;
         }
 
 .altpanel {
@@ -402,12 +410,14 @@ body {
     }
 
 .iletisimsatir {
-    border: 2px solid #f6f6f6;
+    background-color:mistyrose;
+    border: 2px solid black;
     width: 700px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:450px;
+    margin-top:10px;
+    height: 650px;
     text-align: center;
+    color:black;
 }
 
 .iletisimicerik {
@@ -422,23 +432,24 @@ body {
 
 .iletisimsatir h3 {
     font-size: 15pt;
-    color: dimgray;
+    color: black;
 }
 
 .iletisimsatir a {
     text-decoration: none;
     font-size: 15pt;
     padding: 20px;
-    color: dimgray;
+    color: black;
 }
 
 .iletisimbaslik {
     width: 100%;
-    background-color: #f6f6f6;
+    background-color:rgb(35, 13, 131);
+    color:white;
 }
 
     .iletisimbaslik label {
-        font-size: 27pt;
+        font-size: 20pt;
     }
 
 .basarisizpanel {

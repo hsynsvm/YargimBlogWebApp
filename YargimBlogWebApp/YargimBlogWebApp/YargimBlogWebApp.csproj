@@ -69,7 +69,21 @@
   <ItemGroup>
     <Content Include="Css\Arayuz.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Hakkimizda.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="MakaleIcerik.aspx" />
     <Content Include="Resimler\analogo.png" />
+    <Content Include="Resimler\HakkimizdaResimler\2019yh.jpg" />
+    <Content Include="Resimler\HakkimizdaResimler\20200610193130!Eczacıbaşı_Holding_logosu.png" />
+    <Content Include="Resimler\HakkimizdaResimler\Anadolu_Grubu_logosu.png" />
+    <Content Include="Resimler\HakkimizdaResimler\Borusan.png" />
+    <Content Include="Resimler\HakkimizdaResimler\Dogan_holding_logo.jpg" />
+    <Content Include="Resimler\HakkimizdaResimler\hakkimizda.jpeg" />
+    <Content Include="Resimler\HakkimizdaResimler\KocHolding-logo_16-9.jpg" />
+    <Content Include="Resimler\HakkimizdaResimler\sabanci.png" />
+    <Content Include="Resimler\Icon\email-marketing.png" />
+    <Content Include="Resimler\Icon\facebook.png" />
+    <Content Include="Resimler\Icon\instagram.png" />
     <Content Include="Resimler\MakaleResimleri\none.png" />
     <Content Include="Resimler\UyePanel\uyeol2.png" />
     <Content Include="Resimler\UyePanel\üyeol.jpg" />
@@ -433,6 +447,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimizda.aspx.designer.cs">
+      <DependentUpon>Hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakaleIcerik.aspx.cs">
+      <DependentUpon>MakaleIcerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakaleIcerik.aspx.designer.cs">
+      <DependentUpon>MakaleIcerik.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SifremiUnuttum.aspx.cs">

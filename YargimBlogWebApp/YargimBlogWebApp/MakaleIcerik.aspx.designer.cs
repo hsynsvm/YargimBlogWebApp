@@ -11,35 +11,71 @@ namespace YargimBlogWebApp
 {
 
 
-    public partial class Arayuz
+    public partial class MakaleIcerik
     {
 
         /// <summary>
-        /// head control.
+        /// img_resim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Image img_resim;
 
         /// <summary>
-        /// form1 control.
+        /// ltrl_baslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Literal ltrl_baslik;
 
         /// <summary>
-        /// pnl_girisyok control.
+        /// ltrl_kategori control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnl_girisyok;
+        protected global::System.Web.UI.WebControls.Literal ltrl_kategori;
+
+        /// <summary>
+        /// ltrl_Yazar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltrl_Yazar;
+
+        /// <summary>
+        /// ltrl_Tarih control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltrl_Tarih;
+
+        /// <summary>
+        /// ltrl_Icerik control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltrl_Icerik;
+
+        /// <summary>
+        /// rp_yorumlar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rp_yorumlar;
 
         /// <summary>
         /// pnl_girisvar control.
@@ -51,57 +87,48 @@ namespace YargimBlogWebApp
         protected global::System.Web.UI.WebControls.Panel pnl_girisvar;
 
         /// <summary>
-        /// ltrl_uye control.
+        /// tb_yorum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrl_uye;
+        protected global::System.Web.UI.WebControls.TextBox tb_yorum;
 
         /// <summary>
-        /// lbtn_cikis control.
+        /// pnl_basarisiz control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_cikis;
+        protected global::System.Web.UI.WebControls.Panel pnl_basarisiz;
 
         /// <summary>
-        /// rp_kategoriler control.
+        /// lbl_hatamesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rp_kategoriler;
+        protected global::System.Web.UI.WebControls.Label lbl_hatamesaj;
 
         /// <summary>
-        /// pnlAramaSonuc control.
+        /// lbtn_ekle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlAramaSonuc;
+        protected global::System.Web.UI.WebControls.LinkButton lbtn_ekle;
 
         /// <summary>
-        /// lblAramaSonuc control.
+        /// pnl_girisYok control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAramaSonuc;
-
-        /// <summary>
-        /// ContentPlaceHolder1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Panel pnl_girisYok;
     }
 }
