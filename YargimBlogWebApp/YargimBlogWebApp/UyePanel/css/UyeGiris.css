@@ -1,0 +1,228 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Fabrizo;
+}
+
+.ustMenu {
+    background-color: #f6f6f6;
+    padding: 30px 10px;
+    color: #b8004f;
+    border-bottom: 4px solid #9f634e;
+}
+
+    .Ustmenu h3 {
+        float: left;
+        padding-left: 30px;
+        font-size: 17pt;
+        color: #9f634e;
+    }
+
+    .Ustmenu .kullanici {
+        float: right;
+        font-size: 13pt;
+        color: #9f634e;
+        margin: 0 20px;
+        text-decoration: none;
+        font-size: 13pt;
+    }
+
+        .Ustmenu .kullanici a {
+            color: #9f634e;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 13pt;
+        }
+
+            .Ustmenu .kullanici a:hover {
+                text-decoration: underline;
+            }
+
+.guvenlicikis {
+    float: right;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.icerikTasiyici {
+}
+
+.altMenu {
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+    .altMenu a {
+        text-decoration: none;
+        padding: 8px 30px;
+        color: #9f634e;
+    }
+
+        .altMenu a:hover {
+            background-color: #9f634e;
+            color: #f6f6f6;
+        }
+
+.FormTasiyici {
+    padding-top: 15px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.FormBaslik {
+    padding: 10px;
+    text-align: center;
+    color: #9f634e;
+    background-color: #f6f6f6;
+    border: 1px solid #9f634e;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+    .FormBaslik h3 {
+        color: #9f634e;
+    }
+
+.FormIcerik {
+    margin-top: 10px;
+    border: 1px solid #9f634e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.sol {
+    float: left;
+    width: 600px;
+    margin: 0px 20px;
+}
+
+.sag {
+    float: left;
+    width: 700px;
+    margin-left: 10px;
+}
+
+.satir {
+    padding: 7px 0;
+    color: #9f634e;
+}
+
+.FormEtiket {
+}
+
+.metinkutu {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #9f634e;
+}
+
+    .metinkutu:focus {
+        outline: 1px solid #9f634e;
+    }
+
+    .metinkutu:hover {
+        border-color: #9f634e;
+    }
+
+.FormButton {
+    padding: 7px 15px;
+    background-color: #9f634e;
+    color: #f6f6f6;
+    border: 1px solid #9f634e;
+    border-radius: 20px;
+    font-size: 12pt;
+    font-family: Fabrizo;
+}
+
+    .FormButton:hover {
+        background-color: #7f9288;
+    }
+
+.basarisizpanel {
+    background-color: #ff9494;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+    margin: 15px 0;
+}
+
+.basarilipanel {
+    background-color: #79ca79;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid forestGreen;
+    margin: 15px 0;
+}
+
+.tablo {
+    width: 100%;
+    border: 1px solid #9f634e;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+    .tablo tr {
+    }
+
+        .tablo tr th {
+            border: 1px solid #9f634e;
+            border-bottom: 1px solid #9f634e;
+            border-top: none;
+            background-color: #f6f6f6;
+            text-align: left;
+            padding: 10px 7px;
+        }
+
+        .tablo tr td {
+            border: 1px solid #9f634e;
+            padding: 10px 5px;
+        }
+
+.tablobutonduzenle {
+    background-color: #03489c;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.tablobutonsil {
+    background-color: #c90909;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.tablobutondurum {
+    background-color: #00aaaa;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.uyepanel {
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+    .uyepanel p {
+        margin-bottom: 15px;
+        font-size: 13pt;
+        color: #9f634e;
+    }

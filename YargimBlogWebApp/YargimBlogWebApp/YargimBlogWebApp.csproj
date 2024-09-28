@@ -67,8 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\Arayuz.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Resimler\analogo.png" />
     <Content Include="Resimler\MakaleResimleri\none.png" />
+    <Content Include="Resimler\UyePanel\uyeol2.png" />
+    <Content Include="Resimler\UyePanel\üyeol.jpg" />
+    <Content Include="SifremiUnuttum.aspx" />
+    <Content Include="UyeGiris.aspx" />
+    <Content Include="UyeOl.aspx" />
+    <Content Include="UyePanel\css\UyeGiris.css" />
+    <Content Include="UyePanel\Default.aspx" />
+    <Content Include="UyePanel\Profil.aspx" />
+    <Content Include="UyePanel\Yorumlar.aspx" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\adminResimler\add.png" />
     <Content Include="YoneticiPanel\adminResimler\admin.png" />
@@ -409,7 +420,70 @@
     <Content Include="YoneticiPanel\Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arayuz.Master.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arayuz.Master.designer.cs">
+      <DependentUpon>Arayuz.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SifremiUnuttum.aspx.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum.aspx.designer.cs">
+      <DependentUpon>SifremiUnuttum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeGiris.aspx.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeGiris.aspx.designer.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyePanel\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyePanel\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyePanel\Profil.aspx.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyePanel\Profil.aspx.designer.cs">
+      <DependentUpon>Profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UyePanel\UyePanel.Master.cs">
+      <DependentUpon>UyePanel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyePanel\UyePanel.Master.designer.cs">
+      <DependentUpon>UyePanel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UyePanel\Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyePanel\Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\Giris.aspx.cs">
       <DependentUpon>Giris.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -496,7 +570,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Arayuz.Master" />
     <None Include="packages.config" />
+    <Content Include="UyePanel\UyePanel.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -529,7 +605,6 @@
     <Content Include="YoneticiPanel\ckeditor\skins\moono-lisa\readme.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Css\" />
     <Folder Include="Gif\" />
     <Folder Include="Reklamlar\" />
   </ItemGroup>

@@ -1,0 +1,514 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Fabrizo;
+    max-height: 3000px;
+}
+
+.UstPanel {
+    height: 20px;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 10px;
+}
+
+    .UstPanel a {
+        font-family: Fabrizo;
+        text-decoration: none;
+        font-size: 11pt;
+        color: #131419;
+        margin-left: 20px;
+        font-family: Fabrizo;
+    }
+
+        .UstPanel a:hover {
+            color: dimgray;
+        }
+
+.tasiyici {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.logoPanel {
+    text-align: center;
+    padding: 25px;
+}
+
+    .logoPanel a {
+        text-decoration: none;
+        font-size: 25pt;
+        color: black;
+    }
+
+        .logoPanel a img {
+            float: left;
+            width: 15px;
+            height: 15px;
+            padding-top: 10px;
+            padding: 5px;
+        }
+
+.uyepanel {
+    margin-bottom: -30px;
+}
+
+    .uyepanel a {
+        color: black;
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+        float: right;
+        margin-left: 15px;
+        font-size: 11pt;
+    }
+
+        .uyepanel a:hover {
+            color: #f6f6f6;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+.arama {
+    float: right;
+}
+
+.AramaKutusu {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: fabrizo;
+    width: 100px;
+}
+
+.AramaButonu {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: fabrizo;
+    background-color: white;
+}
+
+    .AramaButonu:hover {
+        background-color: black;
+        color: white;
+    }
+
+.kategorimenu {
+    border: 2px solid #f6f6f6;
+    text-align: center;
+}
+
+.menueleman {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 10pt;
+}
+
+    .menueleman:hover {
+        color: dimgray;
+    }
+
+.solpanel {
+    padding-top: 15px;
+    width: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+.icerik {
+    width: 750px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.sagpanel {
+    width: 230px;
+    height: auto;
+    padding-top: 15px;
+    float: right;
+    margin-right: 150px;
+}
+
+    .sagpanel label {
+        background-color: #f6f6f6;
+        width: 250px;
+        text-align: center;
+        font-size: 13pt;
+        padding: 15px;
+    }
+
+    .sagpanel label2 {
+        text-align: center;
+        font-size: 11pt;
+        width: 200px;
+        color: dimgray;
+    }
+
+    .sagpanel img {
+        display: block;
+        margin: 20px auto 0;
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .sagpanel a {
+        display: block;
+        width: 100px;
+        height: 25px;
+        background-color: #9f634e;
+        border-radius: 15px;
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+        .sagpanel a label3 {
+            display: block;
+            text-decoration: none;
+            font-family: Fabrizo;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+            .sagpanel a label3:hover {
+                border-radius: 15px;
+                background-color: #7f9288;
+            }
+
+.hakkimizda {
+    padding-top: 30px;
+    width: 750px;
+}
+
+    .hakkimizda label {
+        font-size: 14pt;
+    }
+
+    .hakkimizda p {
+        margin-bottom: 15px;
+    }
+
+.makale {
+    color: dimgray;
+    padding: 10px;
+    width: 750px;
+}
+
+    .makale .resim {
+    }
+
+        .makale .resim img {
+            width: 750px;
+            height: 750px;
+        }
+
+    .makale .baslik {
+        padding: 10px 0px;
+    }
+
+        .makale .baslik h2 {
+            color: black;
+        }
+
+            .makale .baslik h2:hover {
+                color: dimgray;
+            }
+
+        .makale .baslik a {
+            color: black;
+            text-decoration: none;
+            font-family: Fabrizo;
+        }
+
+
+
+    .makale .bilgi {
+        font-size: 11pt;
+    }
+
+    .makale .ozet {
+        padding: 5px 0px;
+    }
+
+    .makale .devami a {
+        display: block;
+        width: 150px;
+        text-decoration: none;
+        font-family: Fabrizo;
+        color: white;
+        text-align: center;
+        padding: 3px;
+        border-radius: 15px;
+        background-color: #9f634e;
+    }
+
+        .makale .devami a:hover {
+            background-color: #7f9288;
+        }
+
+.ozelsayfalayici {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .ozelsayfalayici a {
+        display: inline-block;
+        padding: 4px 8px;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 5px;
+    }
+
+        .ozelsayfalayici a:hover {
+            background-color: black;
+            color: white;
+        }
+
+.altpanel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #9f634e;
+    background-color: #9f634e;
+    height: 10px;
+}
+
+.GirisKutu {
+    margin:150px auto;
+    width: 600px;
+    height: 450px;
+}
+
+    .GirisKutu .baslik {
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(39,16,4);
+        color: white;
+    }
+
+.GirisForm {
+    padding: 20px;
+    border-top: 1px solid rgb(39,16,4);
+}
+
+.FormMetinKutu {
+    padding: 12px;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 13pt;
+    border: 3px solid rgb(191,109,40);
+    border-radius: 10px;
+    color: black;
+}
+
+.FormGirisButon {
+    padding: 10px 10px;
+    background-color: rgb(39,16,4);
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Fabrizo;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+}
+
+    .FormGirisButon:hover {
+        background-color: rgb(191,109,40);
+        cursor:pointer;
+    }
+.UyeFormetiket{
+    color:white;
+}
+.YorumKutusu {
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 700px;
+}
+
+    .YorumKutusu h3 {
+        color: dimgray;
+        text-align: center;
+        padding: 10px;
+    }
+
+.Yorum {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.Icerik {
+    margin-bottom: 5px;
+}
+
+.Bilgiler {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.YorumPanel {
+    padding-bottom: 100px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+    width: 730px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    .YorumPanel .baslik h3 {
+        color: dimgray;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+.FormYorumButon {
+    padding: 7px 15px;
+    background-color: #9f634e;
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+}
+
+    .FormYorumButon:hover {
+        background-color: #7f9288;
+    }
+
+.iletisimsatir {
+    border: 2px solid #f6f6f6;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.iletisimicerik {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+    .iletisimicerik img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+.iletisimsatir h3 {
+    font-size: 15pt;
+    color: dimgray;
+}
+
+.iletisimsatir a {
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 20px;
+    color: dimgray;
+}
+
+.iletisimbaslik {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+    .iletisimbaslik label {
+        font-size: 27pt;
+    }
+
+.basarisizpanel {
+    background-color: #e72525;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #e72525;
+    margin: 15px 0;
+}
+
+.basarilipanel {
+    background-color: #79ca79;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid forestGreen;
+    margin: 15px 0;
+}
+
+.UyeFormIcerik {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-align:center;
+}
+
+.satir {
+    padding: 7px 0;
+    color: #9f634e;
+}
+
+.metinkutu {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #9f634e;
+}
+
+    .metinkutu:focus {
+        outline: 1px solid #9f634e;
+    }
+
+    .metinkutu:hover {
+        border-color: #9f634e;
+    }
+
+.tiklabutton {
+    padding: 7px 15px;
+    background-color: rgb(39,16,4);
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Fabrizo;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+    .tiklabutton:hover {
+        background-color: rgb(191,109,40);
+        cursor:pointer;
+    }
+.tasiyici {
+    width: auto;
+    background-image: url('../resimler/uyepanel/uyeol2.png');
+    background-size: cover;
+}
+
