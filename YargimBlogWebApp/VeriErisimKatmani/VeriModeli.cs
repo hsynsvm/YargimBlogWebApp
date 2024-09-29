@@ -785,7 +785,7 @@ namespace VeriErisimKatmani
 
             try
             {
-                komut.CommandText = "SELECT ID , Isim , Soyisim , KullaniciAdi , Mail , Sifre , UyelikTarihi , Durum FROM Uyeler";
+                komut.CommandText = "SELECT ID, Isim, Soyisim, KullaniciAdi, Mail, Sifre, UyelikTarihi, Durum FROM Uyeler";
                 komut.Parameters.Clear();
                 baglanti.Open();
                 SqlDataReader okuyucu = komut.ExecuteReader();

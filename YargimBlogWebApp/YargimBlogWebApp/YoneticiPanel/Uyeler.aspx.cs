@@ -14,7 +14,7 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected void Page_Load(object sender, EventArgs e)
         {
             lv_uyeler.DataSource = vm.TumUyeleriGetir();
-            lv_uyeler.DataBind();
+            lv_uyeler.DataBind(); 
         }
 
         protected void lv_uyeler_ItemCommand(object sender, ListViewCommandEventArgs e)

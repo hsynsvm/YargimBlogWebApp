@@ -7,22 +7,22 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="yonetimpaneli">
         <div class="panel yoneticisayisi">
-            <img src="adminResimler/admin.png" class="icon" />
+            <a href="YoneticiIslemleri.aspx"><img src="adminResimler/admin.png" class="icon" /></a>
             <p>Admin/Moderatör</p>
             <asp:Label ID="lblYoneticiSayisi" runat="server"></asp:Label>
         </div>
         <div class="panel makalesayisi">
-            <img src="adminResimler/list.png" class="icon"/>
+            <a href="MakaleListele.aspx"><img src="adminResimler/list.png" class="icon"/></a>
             <p>Makale</p>
             <asp:Label ID="lblMakaleSayisi" runat="server"></asp:Label>
         </div>
         <div class="panel yorumsayisi">
-            <img src="adminResimler/comment.png" class="icon" />
+            <a href="Yorumlar.aspx"><img src="adminResimler/comment.png" class="icon" /></a>
             <p>Yorum</p>
             <asp:Label ID="lblYorumSayisi" runat="server"></asp:Label>
         </div>
         <div class="panel uyesayisi">
-            <img src="adminResimler/team.png" class="icon" />
+            <a href="Uyeler.aspx"> <img src="adminResimler/team.png" class="icon" /></a>
             <p>Üye</p>
             <asp:Label ID="lblUyeSayisi" runat="server"></asp:Label>
         </div>
