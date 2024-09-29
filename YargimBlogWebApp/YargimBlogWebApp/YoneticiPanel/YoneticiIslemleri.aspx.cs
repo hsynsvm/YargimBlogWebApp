@@ -20,11 +20,11 @@ namespace YargimBlogWebApp.YoneticiPanel
 
         protected void lbtn_ekle_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(TextBox2.Text) ||
-              string.IsNullOrEmpty(TextBox3.Text) ||
-              string.IsNullOrEmpty(TextBox1.Text) ||
-              string.IsNullOrEmpty(tb_email.Text) ||
-              string.IsNullOrEmpty(TextBox4.Text))
+            if (string.IsNullOrEmpty(tb_isim.Text) ||
+              string.IsNullOrEmpty(tb_soyisim.Text) ||
+              string.IsNullOrEmpty(tb_kullaniciadi.Text) ||
+              string.IsNullOrEmpty(tb_mail.Text) ||
+              string.IsNullOrEmpty(tb_sifre.Text))
             {
                 pnl_basarisiz.Visible = true;
                 lbl_hatamesaj.Text = "Lütfen tüm alanları doldurunuz!";
@@ -34,12 +34,12 @@ namespace YargimBlogWebApp.YoneticiPanel
                 try
                 {
                     int yoneticiTurID = Convert.ToInt32(rb_YoneticiTur_ID.SelectedValue);
-                    string isim = TextBox2.Text;
-                    string soyisim = TextBox3.Text;
-                    string kullaniciAdi = TextBox1.Text;
-                    string email = tb_email.Text;
-                    string sifre = TextBox4.Text;
-                    bool durum = CheckBox1.Checked;
+                    string isim = tb_isim.Text;
+                    string soyisim = tb_soyisim.Text;
+                    string kullaniciAdi = tb_kullaniciadi.Text;
+                    string email = tb_mail.Text;
+                    string sifre = tb_sifre.Text;
+                    bool durum = cb_durum.Checked;
 
                     Yonetici yonetici = new Yonetici()
                     {
@@ -90,10 +90,10 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected void lbtn_profil_Click(object sender, EventArgs e)
         {
             string mail = tb_email.Text;
-            string yeniSifre = tb_sifre.Text;
-            string isim = tb_isim.Text;
-            string soyisim = tb_soyisim.Text;
-            string kullaniciAdi = tb_kullaniciadi.Text;
+            string yeniSifre = TextBox4.Text;
+            string isim = TextBox2.Text;
+            string soyisim = TextBox3.Text;
+            string kullaniciAdi = TextBox1.Text;
 
             if (string.IsNullOrEmpty(mail) || string.IsNullOrEmpty(yeniSifre) || string.IsNullOrEmpty(isim) || string.IsNullOrEmpty(soyisim) || string.IsNullOrEmpty(kullaniciAdi))
             {

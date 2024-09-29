@@ -785,7 +785,7 @@ namespace VeriErisimKatmani
 
             try
             {
-                komut.CommandText = "SELECT ID,Isim,Soyisim,KullaniciAdi,Mail,Sifre,UyelikTarihi,Durum,Silinmis FROM Uyeler";
+                komut.CommandText = "SELECT ID , Isim , Soyisim , KullaniciAdi , Mail , Sifre , UyelikTarihi , Durum FROM Uyeler";
                 komut.Parameters.Clear();
                 baglanti.Open();
                 SqlDataReader okuyucu = komut.ExecuteReader();
@@ -799,14 +799,12 @@ namespace VeriErisimKatmani
                     u.Mail = okuyucu.GetString(4);
                     u.UyelikTarihi = okuyucu.GetDateTime(5);
                     u.Durum = okuyucu.GetBoolean(6);
-                    u.Silinmis = okuyucu.GetBoolean(7);
                     uyeler.Add(u);
                 }
                 return uyeler;
             }
             catch
             {
-
                 return null;
             }
             finally
@@ -983,7 +981,7 @@ namespace VeriErisimKatmani
                 komut.Parameters.AddWithValue("@isim", u.Isim);
                 komut.Parameters.AddWithValue("@soyisim", u.Soyisim);
                 komut.Parameters.AddWithValue("@kadi", u.KullaniciAdi);
-                komut.Parameters.AddWithValue("@email", u.Mail);
+                komut.Parameters.AddWithValue("@mail", u.Mail);
                 komut.Parameters.AddWithValue("@sifre", u.Sifre);
                 komut.Parameters.AddWithValue("@uyetarih", u.UyelikTarihi);
                 komut.Parameters.AddWithValue("@durum", u.Durum);

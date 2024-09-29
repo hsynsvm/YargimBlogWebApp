@@ -35,8 +35,8 @@
                     <td><%# Eval("UyelikTarihi") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                        <asp:LinkButton ID="lbtn_sil" runat="server" CssClass="delete" CommandArgument='<%# Eval("ID") %>' CommandName="sil">Sil</asp:LinkButton>
-                        <asp:LinkButton ID="lbtn_durum" runat="server" CssClass="arrow" CommandArgument='<%# Eval("ID") %>' CommandName="durum">Durum Değiştir</asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CssClass="delete" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="adminResimler/delete.png" class="icon" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_durum" runat="server" CssClass="arrow" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="adminResimler/edit.png" class="icon" /></asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>
