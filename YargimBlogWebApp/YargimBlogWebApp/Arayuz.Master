@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Yargım Blog Web</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-        <link href="Css/Arayuz2.css" rel="stylesheet" />
+        <link href="Css/Arayuz.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -44,7 +44,7 @@
             </div>
             <div class="reklamalani">
                 <a href="https://www.turhost.com/r/104820/hosting">
-                    <img src="reklamlar/160x600.gif" style="margin-left: 20px;" />
+                    <img src="reklamlar/160x600.gif" style="margin-left: 40px;" />
                 </a>
             </div>
             <div style="clear: both"></div>

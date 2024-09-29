@@ -28,7 +28,7 @@
                     <asp:Button ID="btn_girisYap" runat="server" OnClick="btn_girisYap_Click" Text="Yönetici Giriş" CssClass="girisButton" />
                 </div>
                 <div class="satir">
-                    <a href="#" class="sifre_unuttum">Şifremi Unuttum :/</a>
+                    <a href="../SifremiUnuttum.aspx">Şifremi Unuttum</a>
                 </div>
             </div>
             <div class="sag">
@@ -41,7 +41,7 @@
                 <br />
                 <br />
                 <br />
-                <a href="#" class="uyelink">Üye Giriş</a>
+                <a href="../UyeGiris.aspx" class="uyelink">Üye Giriş</a>
             </div>
             <div style="clear:both"></div>
         </div>

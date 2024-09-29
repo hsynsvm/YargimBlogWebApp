@@ -5,12 +5,27 @@
 
 body {
     font-family: Fabrizo;
-    max-height: 3000px;
+}
+
+.gecici {
+    min-height: 500px;
+    border: 1px solid silver;
+}
+
+.anaTasiyici {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.sayfaBaslik {
+    width: 100px;
+    padding: 10px 0;
+    color: #FE434E;
+    float: left;
 }
 
 .UstPanel {
     height: 20px;
-    background-color: #f6f6f6;
     text-align: center;
     padding: 10px;
 }
@@ -26,6 +41,45 @@ body {
 
         .UstPanel a:hover {
             color: dimgray;
+        }
+
+.uyePanel {
+    width: 500px;
+    float: right;
+    padding: 20px 0;
+    background-color:white;
+}
+
+    .uyePanel a {
+        text-decoration: none;
+        color: darkblue;
+        float: right;
+        margin-left: 20px;
+    }
+
+    .uyePanel a:hover{
+        color:red;
+    }
+        
+.ayrac {
+    border-bottom: 1px solid silver;
+}
+
+.menu {
+    padding: 10px 0px;
+    font-size: 14pt;
+}
+
+    .menu a {
+        padding-right: 10px;
+        color: darkgreen;
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+        .menu a:hover {
+            color: #c20e18;
+            text-decoration: underline;
         }
 
 .tasiyici {
@@ -52,52 +106,6 @@ body {
             padding-top: 10px;
             padding: 5px;
         }
-
-.uyepanel {
-    margin-bottom: -30px;
-}
-
-    .uyepanel a {
-        color: black;
-        border: 1px solid black;
-        padding: 5px 10px;
-        border-radius: 3px;
-        text-decoration: none;
-        float: right;
-        margin-left: 15px;
-        font-size: 11pt;
-    }
-
-        .uyepanel a:hover {
-            color: #f6f6f6;
-            border: 1px solid black;
-            background-color: black;
-        }
-
-.arama {
-    float: right;
-}
-
-.AramaKutusu {
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    font-family: fabrizo;
-    width: 100px;
-}
-
-.AramaButonu {
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    font-family: fabrizo;
-    background-color: white;
-}
-
-    .AramaButonu:hover {
-        background-color: black;
-        color: white;
-    }
 
 .kategorimenu {
     border: 2px solid #f6f6f6;
@@ -200,16 +208,16 @@ body {
     .hakkimizda p {
         margin-bottom: 30px;
     }
+
 .referans{
     margin-left:20px;
     padding:20px;
     float:left;
 }
 
-.makale {
-    color: dimgray;
-    padding: 10px;
-    width: 1200px;
+.makaleAlani {
+    width: 800px;
+    float: left;
 }
 
     .makale .resim {
@@ -238,8 +246,6 @@ body {
             font-family: Fabrizo;
         }
 
-
-
     .makale .bilgi {
         font-size: 11pt;
     }
@@ -258,10 +264,12 @@ body {
         padding: 3px;
         border-radius: 15px;
         background-color: rgb(39,16,4);
+        cursor:pointer;
     }
 
         .makale .devami a:hover {
             background-color: rgb(191,109,40);
+            cursor:pointer;
         }
 
 .ozelsayfalayici {
@@ -342,9 +350,11 @@ body {
         background-color: rgb(191,109,40);
         cursor:pointer;
     }
+
 .UyeFormetiket{
     color:white;
 }
+
 .YorumKutusu {
     background-color: #f6f6f6;
     border: 1px solid #ddd;
@@ -412,12 +422,12 @@ body {
 .iletisimsatir {
     background-color:mistyrose;
     border: 2px solid black;
-    width: 700px;
-    margin-left:450px;
-    margin-top:10px;
-    height: 650px;
     text-align: center;
     color:black;
+}
+
+.ayrac {
+    border-bottom: 1px solid silver;
 }
 
 .iletisimicerik {
@@ -426,7 +436,6 @@ body {
 }
 
     .iletisimicerik img {
-        display: block;
         margin: 0 auto 10px;
     }
 
@@ -444,8 +453,9 @@ body {
 
 .iletisimbaslik {
     width: 100%;
-    background-color:rgb(35, 13, 131);
-    color:white;
+    background-color: rgb(35, 13, 131);
+    color: white;
+    text-align: center;
 }
 
     .iletisimbaslik label {
@@ -517,6 +527,7 @@ body {
         background-color: rgb(191,109,40);
         cursor:pointer;
     }
+
 .tasiyici {
     width: auto;
     background-image: url('../resimler/uyepanel/uyeol2.png');

@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\Arayuz.css" />
-    <Content Include="Css\Arayuz2.css" />
     <Content Include="Default.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
