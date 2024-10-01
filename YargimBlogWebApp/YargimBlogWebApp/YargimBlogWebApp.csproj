@@ -434,7 +434,6 @@
     <Content Include="YoneticiPanel\ckeditor\skins\moono-lisa\images\spinner.gif" />
     <Content Include="YoneticiPanel\ckeditor\styles.js" />
     <Content Include="YoneticiPanel\ckeditor\vendor\promise.js" />
-    <Content Include="YoneticiPanel\Css\Deneme.css" />
     <Content Include="YoneticiPanel\Css\FormSayfasi.css" />
     <Content Include="YoneticiPanel\Css\girisCss.css" />
     <Content Include="YoneticiPanel\Css\ListeSayfasi.css" />

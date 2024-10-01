@@ -226,3 +226,22 @@ body {
         font-size: 13pt;
         color: #9f634e;
     }
+.icon {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+.edit {
+    width: 17px;
+    padding: 4px;
+}
+
+.arrow {
+    width: 17px;
+    padding: 4px;
+}
+
+.delete {
+    width: 17px;
+    padding: 4px;
+}

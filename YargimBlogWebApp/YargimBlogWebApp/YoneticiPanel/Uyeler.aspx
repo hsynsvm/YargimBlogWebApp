@@ -17,7 +17,7 @@
                         <th>İsim</th>
                         <th>Soyisim</th>
                         <th>Kullanıcı Adı</th>
-                        <th>Mail</th>
+                        <th>Email</th>
                         <th>Üyelik Tarihi</th>
                         <th>Durum</th>
                         <th>Seçenekler</th>
@@ -35,11 +35,12 @@
                     <td><%# Eval("UyelikTarihi") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                        <asp:LinkButton ID="lbtn_sil" runat="server" CssClass="delete" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="adminResimler/delete.png" class="icon" /></asp:LinkButton>
-                        <asp:LinkButton ID="lbtn_durum" runat="server" CssClass="arrow" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="adminResimler/edit.png" class="icon" /></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil"><img src="adminResimler/delete.png" class="delete"/></asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_durum" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="durum"><img src="adminResimler/edit.png" class="edit" /></asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>
         </asp:ListView>
     </div>
+
 </asp:Content>

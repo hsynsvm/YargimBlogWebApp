@@ -14,14 +14,24 @@
         <div class="anaTasiyici">
             <div class="sayfaBaslik">
                 <h2>
-                    <a href="Default.aspx"><img src="Resimler/analogo.png"  style="width:100px;"/></a></h2>
+                    <a href="Default.aspx">
+                        <img src="Resimler/analogo.png" style="width: 100px;" /></a></h2>
             </div>
+
             <div class="uyePanel">
-                <a href="UyeGiris.aspx">Üye Giriş</a>
-                <a href="UyeOl.aspx">Üye Ol</a>
-                <a href="Hakkimizda.aspx">Hakkımızda</a>
-                <a href="Iletisim.aspx">İletişim</a>
-                <a href="YoneticiPanel/Giris.aspx">Yönetici Paneli Giriş</a>
+                <asp:Panel ID="pnl_girisyok" runat="server" class="uyePanel">
+                    <a href="UyeGiris.aspx">Giriş Yap</a>
+                    <a href="UyeOl.aspx">Üye Ol</a>
+                    <a href="Hakkimizda.aspx">Hakkımızda</a>
+                    <a href="Iletisim.aspx">İletişim</a>
+                </asp:Panel>
+                <asp:Panel ID="pnl_girisvar" runat="server" class="uyePanel">
+                    <a href="UyePaneli/profil.aspx">
+                        <asp:Literal ID="Literal1" runat="server"></asp:Literal></a>
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
+                    <a href="UyePanel/Default.aspx">Üye Paneli Giriş</a>
+                    <a href="YoneticiPanel/Giris.aspx">Yönetici Paneli Giriş</a>
+                </asp:Panel>
             </div>
             <div style="clear: both"></div>
         </div>
@@ -29,6 +39,7 @@
         <div class="anaTasiyici">
             <div class="menu">
                 <a href="Default.aspx">Tüm Makaleler</a> | 
+               
                 <asp:Repeater ID="rp_kategoriler" runat="server">
                     <ItemTemplate>
                         <a href='Default.aspx?kid=<%# Eval("ID") %>'><%# Eval("Isim") %></a>

@@ -782,7 +782,6 @@ namespace VeriErisimKatmani
         public List<Uye> TumUyeleriGetir()
         {
             List<Uye> uyeler = new List<Uye>();
-
             try
             {
                 komut.CommandText = "SELECT ID, Isim, Soyisim, KullaniciAdi, Mail, Sifre, UyelikTarihi, Durum FROM Uyeler";
@@ -797,8 +796,9 @@ namespace VeriErisimKatmani
                     u.Soyisim = okuyucu.GetString(2);
                     u.KullaniciAdi = okuyucu.GetString(3);
                     u.Mail = okuyucu.GetString(4);
-                    u.UyelikTarihi = okuyucu.GetDateTime(5);
-                    u.Durum = okuyucu.GetBoolean(6);
+                    u.Sifre = okuyucu.GetString(5);
+                    u.UyelikTarihi = okuyucu.GetDateTime(6);
+                    u.Durum = okuyucu.GetBoolean(7);
                     uyeler.Add(u);
                 }
                 return uyeler;
