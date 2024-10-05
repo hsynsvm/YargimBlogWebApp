@@ -32,11 +32,7 @@ namespace YargimBlogWebApp.YoneticiPanel
                                 Session["GirisYapanYonetici"] = yonetici;
                                 Response.Redirect("YoneticiDefault.aspx");
                             }
-                            else
-                            {
-                                pnl_basarisiz.Visible = true;
-                                lbl_mesaj.Text = "Hesabınız Askıya Alınmıştır";
-                            }
+                           
                         }
                         else
                         {

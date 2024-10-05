@@ -8,7 +8,7 @@
     <div class="yonetimpaneli">
         <div class="panel yoneticisayisi">
             <a href="YoneticiIslemleri.aspx"><img src="adminResimler/admin.png" class="icon" /></a>
-            <p>Admin/Moderatör</p>
+            <p>Admin</p>
             <asp:Label ID="lblYoneticiSayisi" runat="server"></asp:Label>
         </div>
         <div class="panel makalesayisi">

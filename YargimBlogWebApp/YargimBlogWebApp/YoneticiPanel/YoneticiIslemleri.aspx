@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="formTasiyici">
         <div class="formBaslik ">
-            <h3>Admin/Moderatör Ekle</h3>
+            <h3>Admin Ekle</h3>
         </div>
         <div class="formIcerik">
             <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="basarisizPanel" Visible="false">
@@ -20,7 +20,6 @@
                 <label class="Formetiket">Yönetici Türü</label>
                 <asp:RadioButtonList ID="rb_YoneticiTur_ID" runat="server" CssClass="metinKutu">
                     <asp:ListItem Text="Admin" Value="1"></asp:ListItem>
-                    <asp:ListItem Text="Moderatör" Value="2"></asp:ListItem>
                 </asp:RadioButtonList>
             </div>
             <div class="satir">
@@ -47,10 +46,10 @@
                 <label class="Formetiket"></label>
                 <br />
                 <asp:CheckBox ID="cb_durum" runat="server" Text=" Yayınla" />
-                <small style="color: dimgray">(Eğer işaretlenirse admin/moderatör aktif olur)</small>
+                <small style="color: dimgray">(Eğer işaretlenirse admin aktif olur)</small>
             </div>
             <div class="satir">
-                <asp:Button ID="lbtn_ekle" runat="server" CssClass="islemButton" Text="Admin/Moderatör Ekle" OnClick="lbtn_ekle_Click" />
+                <asp:Button ID="lbtn_ekle" runat="server" CssClass="islemButton" Text="Admin Ekle" OnClick="lbtn_ekle_Click" />
             </div>
         </div>
     </div>
