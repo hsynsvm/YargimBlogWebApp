@@ -89,11 +89,11 @@ namespace YargimBlogWebApp.YoneticiPanel
 
         protected void lbtn_profil_Click(object sender, EventArgs e)
         {
-            string mail = tb_email.Text;
-            string yeniSifre = TextBox4.Text;
-            string isim = TextBox2.Text;
-            string soyisim = TextBox3.Text;
-            string kullaniciAdi = TextBox1.Text;
+            string mail = td_email.Text;
+            string yeniSifre = td_sifre.Text;
+            string isim = td_isim.Text;
+            string soyisim = td_soyisim.Text;
+            string kullaniciAdi = td_kullaniciadi.Text;
 
             if (string.IsNullOrEmpty(mail) || string.IsNullOrEmpty(yeniSifre) || string.IsNullOrEmpty(isim) || string.IsNullOrEmpty(soyisim) || string.IsNullOrEmpty(kullaniciAdi))
             {
@@ -102,7 +102,7 @@ namespace YargimBlogWebApp.YoneticiPanel
                 return;
             }
 
-            Yonetici yonetici = Session["yonetici"] as Yonetici;
+            Yonetici yonetici = Session["Yonetici"] as Yonetici;
             if (yonetici != null)
             {
                 if (vm.YoneticiProfilGuncelle(yonetici.ID, isim, soyisim, kullaniciAdi, mail, yeniSifre))

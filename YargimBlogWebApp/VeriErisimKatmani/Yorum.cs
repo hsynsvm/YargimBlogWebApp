@@ -15,7 +15,6 @@ namespace VeriErisimKatmani
         public DateTime EklemeTarihi { get; set; }
         public bool Durum { get; set; }
         public string UyeIsim { get; set; }
-        public int BegeniSayisi { get; set; }
-        public bool Onay { get; set; }
+       
     }
 }

@@ -1255,7 +1255,7 @@ namespace VeriErisimKatmani
             List<Yorum> yorumlar = new List<Yorum>();
             try
             {
-                komut.CommandText = "SELECT y.ID, y.MakaleID, y.UyeID, y.Icerik, y.Eklemetarihi, y.Durum, u.Isim, u.Soyisim FROM Yorumlar y INNER JOIN Uyeler u ON y.Uye_ID = u.ID WHERE y.MakaleID = @makaleID";
+                komut.CommandText = "SELECT y.ID, y.MakaleID, y.UyeID, y.Icerik, y.Eklemetarihi, y.Durum, u.Isim, u.Soyisim FROM Yorumlar y INNER JOIN Uyeler u ON y.UyeID = u.ID WHERE y.MakaleID = @makaleID";
                 komut.Parameters.Clear();
                 komut.Parameters.AddWithValue("@makaleID", makaleID);
 

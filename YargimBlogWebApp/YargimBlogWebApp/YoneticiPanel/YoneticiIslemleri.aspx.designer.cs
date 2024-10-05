@@ -150,58 +150,58 @@ namespace YargimBlogWebApp.YoneticiPanel
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// TextBox1 control.
+        /// td_kullaniciadi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox td_kullaniciadi;
 
         /// <summary>
-        /// TextBox2 control.
+        /// td_isim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox td_isim;
 
         /// <summary>
-        /// TextBox3 control.
+        /// td_soyisim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox td_soyisim;
 
         /// <summary>
-        /// tb_email control.
+        /// td_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_email;
+        protected global::System.Web.UI.WebControls.TextBox td_email;
 
         /// <summary>
-        /// TextBox4 control.
+        /// td_sifre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox td_sifre;
 
         /// <summary>
-        /// CheckBox1 control.
+        /// cd_durum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.CheckBox cd_durum;
 
         /// <summary>
         /// lbtn_profil control.

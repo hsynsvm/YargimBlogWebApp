@@ -105,27 +105,27 @@
             </asp:Panel>
             <div class="satir">
                 <label class="Formetiket">Kullanıcı Adı</label>
-                <asp:TextBox ID="TextBox1" runat="server" CssClass="metinKutu"></asp:TextBox>
+                <asp:TextBox ID="td_kullaniciadi" runat="server" CssClass="metinKutu"></asp:TextBox>
             </div>
             <div class="satir">
                 <label class="Formetiket">İsim</label>
-                <asp:TextBox ID="TextBox2" runat="server" CssClass="metinKutu"></asp:TextBox>
+                <asp:TextBox ID="td_isim" runat="server" CssClass="metinKutu"></asp:TextBox>
             </div>
             <div class="satir">
                 <label class="Formetiket">Soyisim</label>
-                <asp:TextBox ID="TextBox3" runat="server" CssClass="metinKutu"></asp:TextBox>
+                <asp:TextBox ID="td_soyisim" runat="server" CssClass="metinKutu"></asp:TextBox>
             </div>
             <div class="satir">
                 <label class="Formetiket">Mail</label>
-                <asp:TextBox ID="tb_email" runat="server" CssClass="metinKutu"></asp:TextBox>
+                <asp:TextBox ID="td_email" runat="server" CssClass="metinKutu"></asp:TextBox>
             </div>
             <div class="satir">
                 <label class="Formetiket">Şifre</label>
-                <asp:TextBox ID="TextBox4" runat="server" CssClass="metinKutu" TextMode="Password"></asp:TextBox>
+                <asp:TextBox ID="td_sifre" runat="server" CssClass="metinKutu" TextMode="Password"></asp:TextBox>
             </div>
             <div class="satir">
                 <label class="Formetiket">Durum</label><br />
-                <asp:CheckBox ID="CheckBox1" runat="server" />
+                <asp:CheckBox ID="cd_durum" runat="server" />
                 <small style="color: dimgray">(Eğer işaretli ise profil güncelleme aktif olur)</small>
             </div>
             <div class="satir">
